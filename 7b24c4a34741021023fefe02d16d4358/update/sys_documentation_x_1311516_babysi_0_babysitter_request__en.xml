@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="BabySitter Request" language="en" table="x_1311516_babysi_0_babysitter_request">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>BabySitter Request</label>
+            <language>en</language>
+            <name>x_1311516_babysi_0_babysitter_request</name>
+            <plural>BabySitter Requests</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>shu</sys_created_by>
+            <sys_created_on>2024-03-25 19:14:22</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>BabySitter Request</sys_name>
+            <sys_package display_value="BabySitter Requester" source="x_1311516_babysi_0">7b24c4a34741021023fefe02d16d4358</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="BabySitter Requester">7b24c4a34741021023fefe02d16d4358</sys_scope>
+            <sys_update_name>sys_documentation_x_1311516_babysi_0_babysitter_request__en</sys_update_name>
+            <sys_updated_by>shu</sys_updated_by>
+            <sys_updated_on>2024-03-25 19:14:22</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

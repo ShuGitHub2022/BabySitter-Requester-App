@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>allergy_list</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-03-25 19:39:45</sys_created_on>
+        <sys_id>ed2054634781021023fefe02d16d43af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>allergy_list</sys_name>
+        <sys_package display_value="BabySitter Requester" source="x_1311516_babysi_0">7b24c4a34741021023fefe02d16d4358</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BabySitter Requester">7b24c4a34741021023fefe02d16d4358</sys_scope>
+        <sys_update_name>sys_ui_policy_action_ed2054634781021023fefe02d16d43af</sys_update_name>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-03-25 19:39:45</sys_updated_on>
+        <table>x_1311516_babysi_0_babysitter_request</table>
+        <ui_policy display_value="if Allergy is checked, Allergy list will be mandatory and visible">a12054634781021023fefe02d16d43ac</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

@@ -1,0 +1,1274 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=349000,viewActivatedIn=naturalLanguage</attributes>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>When a servce closed complete by the babysitter or manager, email will be sent to the requester</description>
+        <internal_name>service_provided</internal_name>
+        <label_cache>[{"name":"Updated_1.current.assignment_group.manager.email","label":"Trigger - Record Updated➛BabySitter Request Record➛Assignment group➛Manager➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"Updated_1.current.assignment_group.manager.last_name","label":"Trigger - Record Updated➛BabySitter Request Record➛Assignment group➛Manager➛Last name","reference":"","reference_display":"Last name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"last_name"},{"name":"Updated_1.current.assignment_group.manager.first_name","label":"Trigger - Record Updated➛BabySitter Request Record➛Assignment group➛Manager➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"Updated_1.current.requester.first_name","label":"Trigger - Record Updated➛BabySitter Request Record➛Requester➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"Updated_1.current.number","label":"Trigger - Record Updated➛BabySitter Request Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1311516_babysi_0_babysitter_request","column_name":"number"},{"name":"Updated_1.current","label":"Trigger - Record Updated➛BabySitter Request Record","reference":"x_1311516_babysi_0_babysitter_request","reference_display":"BabySitter Request","type":"reference","base_type":"reference","attributes":{}},{"name":"Updated_1.current.requester.email","label":"Trigger - Record Updated➛BabySitter Request Record➛Requester➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"}]</label_cache>
+        <master_snapshot>e779e4634705021023fefe02d16d43de</master_snapshot>
+        <name>Service Provided</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>ff7928634705021023fefe02d16d436a</remote_trigger_id>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-03-25 21:24:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9a28e46f47c1021023fefe02d16d43f2</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Service Provided</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="BabySitter Requester" source="x_1311516_babysi_0">7b24c4a34741021023fefe02d16d4358</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BabySitter Requester">7b24c4a34741021023fefe02d16d4358</sys_scope>
+        <sys_update_name>sys_hub_flow_9a28e46f47c1021023fefe02d16d43f2</sys_update_name>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-03-25 21:30:31</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=9a28e46f47c1021023fefe02d16d43f2"/>
+    <sys_variable_value action="delete_multiple" query="document_key=9a28e46f47c1021023fefe02d16d43f2"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1311516_babysi_0_babysitter_request">state=3<item display_value="Closed Complete" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="3"/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>false</on_insert>
+        <on_update>true</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-03-25 21:30:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ff7928634705021023fefe02d16d436a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="BabySitter Requester">7b24c4a34741021023fefe02d16d4358</sys_scope>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-03-25 21:30:30</sys_updated_on>
+        <table>x_1311516_babysi_0_babysitter_request</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>9a28e46f47c1021023fefe02d16d43f2</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-03-25 21:30:30</sys_created_on>
+        <sys_id>7b7928634705021023fefe02d16d436b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-03-25 21:30:30</sys_updated_on>
+        <trigger display_value="">ff7928634705021023fefe02d16d436a</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=9a28e46f47c1021023fefe02d16d43f2^sys_idNOT IN7b7928634705021023fefe02d16d436b"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=9a28e46f47c1021023fefe02d16d43f2^sys_idNOT INd279e4634705021023fefe02d16d4303"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Service Provided">9a28e46f47c1021023fefe02d16d43f2</flow>
+        <name>Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-03-25 21:30:24</sys_created_on>
+        <sys_id>d279e4634705021023fefe02d16d4303</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-03-25 21:30:30</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d279e4634705021023fefe02d16d4303"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>d279e4634705021023fefe02d16d4303</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-03-25 21:30:24</sys_created_on>
+        <sys_id>1e79e4634705021023fefe02d16d4303</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-03-25 21:30:24</sys_updated_on>
+        <value>x_1311516_babysi_0_babysitter_request</value>
+        <variable display_value="Table">1dda12e0c31322002841b63b12d3aea8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>d279e4634705021023fefe02d16d4303</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-03-25 21:30:24</sys_created_on>
+        <sys_id>5a79e4634705021023fefe02d16d4303</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-03-25 21:30:24</sys_updated_on>
+        <value>state=3</value>
+        <variable display_value="Condition">bb9adea0c31322002841b63b12d3ae67</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_bb695e60c31322002841b63b12d3aea5^id=d279e4634705021023fefe02d16d4303"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=9a28e46f47c1021023fefe02d16d43f2"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=9a28e46f47c1021023fefe02d16d43f2^sys_idNOT IN9628e46f47c1021023fefe02d16d43f3"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>9a28e46f47c1021023fefe02d16d43f2</id>
+        <name>Service Provided</name>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-03-25 21:24:40</sys_created_on>
+        <sys_id>9628e46f47c1021023fefe02d16d43f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-03-25 21:24:40</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=9628e46f47c1021023fefe02d16d43f3"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=9a28e46f47c1021023fefe02d16d43f2^sys_idNOT IN1679a4634705021023fefe02d16d43fe,5a79a4634705021023fefe02d16d43ea,9679a4634705021023fefe02d16d43ee"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Service Provided">9a28e46f47c1021023fefe02d16d43f2</model>
+        <model_id>9a28e46f47c1021023fefe02d16d43f2</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_9a28e46f47c1021023fefe02d16d43f2</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-03-25 21:30:24</sys_created_on>
+        <sys_id>1679a4634705021023fefe02d16d43fe</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BabySitter Requester">7b24c4a34741021023fefe02d16d4358</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-03-25 21:30:30</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=1679a4634705021023fefe02d16d43fe"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Service Provided">9a28e46f47c1021023fefe02d16d43f2</model>
+        <model_id>9a28e46f47c1021023fefe02d16d43f2</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_9a28e46f47c1021023fefe02d16d43f2</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-03-25 21:30:24</sys_created_on>
+        <sys_id>5a79a4634705021023fefe02d16d43ea</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BabySitter Requester">7b24c4a34741021023fefe02d16d4358</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-03-25 21:30:30</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=5a79a4634705021023fefe02d16d43ea"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Service Provided">9a28e46f47c1021023fefe02d16d43f2</model>
+        <model_id>9a28e46f47c1021023fefe02d16d43f2</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_9a28e46f47c1021023fefe02d16d43f2</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-03-25 21:30:24</sys_created_on>
+        <sys_id>9679a4634705021023fefe02d16d43ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BabySitter Requester">7b24c4a34741021023fefe02d16d4358</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-03-25 21:30:24</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=9679a4634705021023fefe02d16d43ee"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=9a28e46f47c1021023fefe02d16d43f2"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=9a28e46f47c1021023fefe02d16d43f2"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=9a28e46f47c1021023fefe02d16d43f2^sys_idNOT IN1279e4634705021023fefe02d16d430b"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Service Provided">9a28e46f47c1021023fefe02d16d43f2</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-03-25 21:30:25</sys_created_on>
+        <sys_id>1279e4634705021023fefe02d16d430b</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="BabySitter Requester">7b24c4a34741021023fefe02d16d4358</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-03-26 02:48:02</sys_updated_on>
+        <ui_id>b4a8e49d-e205-42ee-82ab-76d84af28753</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1279e4634705021023fefe02d16d430b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1279e4634705021023fefe02d16d430b</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-03-25 21:30:25</sys_created_on>
+        <sys_id>de79e4634705021023fefe02d16d430d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-03-25 21:30:25</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=1279e4634705021023fefe02d16d430b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>1279e4634705021023fefe02d16d430b</id>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-03-25 21:30:25</sys_created_on>
+        <sys_id>9a79e4634705021023fefe02d16d430d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-03-25 21:30:25</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;Hello&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:e3917090-84e9-4963-8211-41c60fbc8e40}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:e3917090-84e9-4963-8211-41c60fbc8e40}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Updated &amp;gt; BabySitter Request Record &amp;gt; Requester &amp;gt; First name"&gt;&lt;span class="pill-start"&gt;Trigger - Record Updated&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;First name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_e3917090-84e9-4963-8211-41c60fbc8e40" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Your babysitter request number&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:0d340259-e693-4578-894c-b5ea1ee02ff5}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:0d340259-e693-4578-894c-b5ea1ee02ff5}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Updated &amp;gt; BabySitter Request Record &amp;gt; Number"&gt;&lt;span class="pill-start"&gt;Trigger - Record Updated&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Number&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_0d340259-e693-4578-894c-b5ea1ee02ff5" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; has been provided.&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Please send you feedback to us ( email: &lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:fddf135f-e941-4f49-8e5b-d4e9253c8d62}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:fddf135f-e941-4f49-8e5b-d4e9253c8d62}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Updated &amp;gt; BabySitter Request Record &amp;gt; Assignment group &amp;gt; Manager &amp;gt; Email"&gt;&lt;span class="pill-start"&gt;Trigger - Record Updated&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Email&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_fddf135f-e941-4f49-8e5b-d4e9253c8d62" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;) . Your feedback will help us improve our service.&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Thank you for your business.&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;BabySitter Group&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:c1bf0755-5d49-4aae-9c78-23836097fe67}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:c1bf0755-5d49-4aae-9c78-23836097fe67}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Updated &amp;gt; BabySitter Request Record &amp;gt; Assignment group &amp;gt; Manager &amp;gt; First name"&gt;&lt;span class="pill-start"&gt;Trigger - Record Updated&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;First name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_c1bf0755-5d49-4aae-9c78-23836097fe67" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:14ec9cec-296b-43f2-b29c-653330f75730}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:14ec9cec-296b-43f2-b29c-653330f75730}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Updated &amp;gt; BabySitter Request Record &amp;gt; Assignment group &amp;gt; Manager &amp;gt; Last name"&gt;&lt;span class="pill-start"&gt;Trigger - Record Updated&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Last name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_14ec9cec-296b-43f2-b29c-653330f75730" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>1279e4634705021023fefe02d16d430b</id>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-03-25 21:30:25</sys_created_on>
+        <sys_id>5e79e4634705021023fefe02d16d430d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-03-25 21:30:25</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>Your request {{Updated_1.current.number}} has been fulfilled</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>1279e4634705021023fefe02d16d430b</id>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-03-25 21:30:25</sys_created_on>
+        <sys_id>d279e4634705021023fefe02d16d430d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-03-25 21:30:25</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Updated_1.current.requester.email}} </value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1279e4634705021023fefe02d16d430b"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=1279e4634705021023fefe02d16d430b"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=9a28e46f47c1021023fefe02d16d43f2"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=9a28e46f47c1021023fefe02d16d43f2"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=9a28e46f47c1021023fefe02d16d43f2^sys_idNOT IN1a79e4634705021023fefe02d16d4310,5679e4634705021023fefe02d16d4310,9279e4634705021023fefe02d16d4310,da79e4634705021023fefe02d16d430f,da79e4634705021023fefe02d16d4310"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>9a28e46f47c1021023fefe02d16d43f2</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Updated_1.current.assignment_group.manager.last_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-03-25 21:30:25</sys_created_on>
+        <sys_id>1a79e4634705021023fefe02d16d4310</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="BabySitter Requester">7b24c4a34741021023fefe02d16d4358</sys_scope>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-03-25 21:30:25</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>14ec9cec-296b-43f2-b29c-653330f75730</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>9a28e46f47c1021023fefe02d16d43f2</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Updated_1.current.assignment_group.manager.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-03-25 21:30:25</sys_created_on>
+        <sys_id>5679e4634705021023fefe02d16d4310</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="BabySitter Requester">7b24c4a34741021023fefe02d16d4358</sys_scope>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-03-25 21:30:25</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>c1bf0755-5d49-4aae-9c78-23836097fe67</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>9a28e46f47c1021023fefe02d16d43f2</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Updated_1.current.number}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-03-25 21:30:25</sys_created_on>
+        <sys_id>9279e4634705021023fefe02d16d4310</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="BabySitter Requester">7b24c4a34741021023fefe02d16d4358</sys_scope>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-03-25 21:30:25</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>0d340259-e693-4578-894c-b5ea1ee02ff5</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>9a28e46f47c1021023fefe02d16d43f2</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Updated_1.current.requester.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-03-25 21:30:25</sys_created_on>
+        <sys_id>da79e4634705021023fefe02d16d430f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="BabySitter Requester">7b24c4a34741021023fefe02d16d4358</sys_scope>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-03-25 21:30:25</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>e3917090-84e9-4963-8211-41c60fbc8e40</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>9a28e46f47c1021023fefe02d16d43f2</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Updated_1.current.assignment_group.manager.email}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-03-25 21:30:25</sys_created_on>
+        <sys_id>da79e4634705021023fefe02d16d4310</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="BabySitter Requester">7b24c4a34741021023fefe02d16d4358</sys_scope>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-03-25 21:30:25</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>fddf135f-e941-4f49-8e5b-d4e9253c8d62</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=9a28e46f47c1021023fefe02d16d43f2"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_9a28e46f47c1021023fefe02d16d43f2^sys_idNOT IN5679a4634705021023fefe02d16d43fd,d679a4634705021023fefe02d16d43ed,d679e4634705021023fefe02d16d4300"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_9a28e46f47c1021023fefe02d16d43f2</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-03-25 21:30:24</sys_created_on>
+        <sys_id>5679a4634705021023fefe02d16d43fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="BabySitter Requester" source="x_1311516_babysi_0">7b24c4a34741021023fefe02d16d4358</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BabySitter Requester">7b24c4a34741021023fefe02d16d4358</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-03-25 21:30:24</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_9a28e46f47c1021023fefe02d16d43f2</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-03-25 21:30:24</sys_created_on>
+        <sys_id>d679a4634705021023fefe02d16d43ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="BabySitter Requester" source="x_1311516_babysi_0">7b24c4a34741021023fefe02d16d4358</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BabySitter Requester">7b24c4a34741021023fefe02d16d4358</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-03-25 21:30:24</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_9a28e46f47c1021023fefe02d16d43f2</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-03-25 21:30:24</sys_created_on>
+        <sys_id>d679e4634705021023fefe02d16d4300</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="BabySitter Requester" source="x_1311516_babysi_0">7b24c4a34741021023fefe02d16d4358</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BabySitter Requester">7b24c4a34741021023fefe02d16d4358</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-03-25 21:30:24</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_9a28e46f47c1021023fefe02d16d43f2"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_9a28e46f47c1021023fefe02d16d43f2"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_9a28e46f47c1021023fefe02d16d43f2"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>When a servce closed complete by the babysitter or manager, email will be sent to the requester</description>
+        <internal_name>service_provided</internal_name>
+        <label_cache>[{"name":"Updated_1.current.assignment_group.manager.email","label":"Trigger - Record Updated➛BabySitter Request Record➛Assignment group➛Manager➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"Updated_1.current.assignment_group.manager.last_name","label":"Trigger - Record Updated➛BabySitter Request Record➛Assignment group➛Manager➛Last name","reference":"","reference_display":"Last name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"last_name"},{"name":"Updated_1.current.assignment_group.manager.first_name","label":"Trigger - Record Updated➛BabySitter Request Record➛Assignment group➛Manager➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"Updated_1.current.requester.first_name","label":"Trigger - Record Updated➛BabySitter Request Record➛Requester➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"Updated_1.current.number","label":"Trigger - Record Updated➛BabySitter Request Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1311516_babysi_0_babysitter_request","column_name":"number"},{"name":"Updated_1.current","label":"Trigger - Record Updated➛BabySitter Request Record","reference":"x_1311516_babysi_0_babysitter_request","reference_display":"BabySitter Request","type":"reference","base_type":"reference","attributes":{}},{"name":"Updated_1.current.requester.email","label":"Trigger - Record Updated➛BabySitter Request Record➛Requester➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"}]</label_cache>
+        <master>true</master>
+        <name>Service Provided</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Service Provided">9a28e46f47c1021023fefe02d16d43f2</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-03-25 21:30:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e779e4634705021023fefe02d16d43de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BabySitter Requester">7b24c4a34741021023fefe02d16d4358</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-03-25 21:30:29</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=e779e4634705021023fefe02d16d43de"/>
+    <sys_variable_value action="delete_multiple" query="document_key=e779e4634705021023fefe02d16d43de"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=e779e4634705021023fefe02d16d43de^sys_idNOT IN337928634705021023fefe02d16d4350"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Service Provided">e779e4634705021023fefe02d16d43de</flow>
+        <name>Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-03-25 21:30:30</sys_created_on>
+        <sys_id>337928634705021023fefe02d16d4350</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-03-25 21:30:30</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=337928634705021023fefe02d16d4350"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>337928634705021023fefe02d16d4350</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-03-25 21:30:30</sys_created_on>
+        <sys_id>7b7928634705021023fefe02d16d4351</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-03-25 21:30:30</sys_updated_on>
+        <value>x_1311516_babysi_0_babysitter_request</value>
+        <variable display_value="Table">1dda12e0c31322002841b63b12d3aea8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>337928634705021023fefe02d16d4350</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-03-25 21:30:30</sys_created_on>
+        <sys_id>b77928634705021023fefe02d16d4351</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-03-25 21:30:30</sys_updated_on>
+        <value>state=3</value>
+        <variable display_value="Condition">bb9adea0c31322002841b63b12d3ae67</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_bb695e60c31322002841b63b12d3aea5^id=337928634705021023fefe02d16d4350"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=e779e4634705021023fefe02d16d43de"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=e779e4634705021023fefe02d16d43de^sys_idNOT IN2779e4634705021023fefe02d16d43df"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>e779e4634705021023fefe02d16d43de</id>
+        <name>Service Provided</name>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-03-25 21:30:29</sys_created_on>
+        <sys_id>2779e4634705021023fefe02d16d43df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-03-25 21:30:29</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=2779e4634705021023fefe02d16d43df"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=e779e4634705021023fefe02d16d43de^sys_idNOT IN6b79e4634705021023fefe02d16d43f3,ab79e4634705021023fefe02d16d43fb,e379e4634705021023fefe02d16d43e0"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Service Provided">e779e4634705021023fefe02d16d43de</model>
+        <model_id>e779e4634705021023fefe02d16d43de</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_e779e4634705021023fefe02d16d43de</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-03-25 21:30:29</sys_created_on>
+        <sys_id>6b79e4634705021023fefe02d16d43f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BabySitter Requester">7b24c4a34741021023fefe02d16d4358</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-03-25 21:30:29</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=6b79e4634705021023fefe02d16d43f3"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Service Provided">e779e4634705021023fefe02d16d43de</model>
+        <model_id>e779e4634705021023fefe02d16d43de</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_e779e4634705021023fefe02d16d43de</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-03-25 21:30:30</sys_created_on>
+        <sys_id>ab79e4634705021023fefe02d16d43fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BabySitter Requester">7b24c4a34741021023fefe02d16d4358</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-03-25 21:30:30</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ab79e4634705021023fefe02d16d43fb"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Service Provided">e779e4634705021023fefe02d16d43de</model>
+        <model_id>e779e4634705021023fefe02d16d43de</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_e779e4634705021023fefe02d16d43de</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-03-25 21:30:29</sys_created_on>
+        <sys_id>e379e4634705021023fefe02d16d43e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BabySitter Requester">7b24c4a34741021023fefe02d16d4358</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-03-25 21:30:29</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=e379e4634705021023fefe02d16d43e0"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=e779e4634705021023fefe02d16d43de"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e779e4634705021023fefe02d16d43de"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=e779e4634705021023fefe02d16d43de^sys_idNOT IN7b7928634705021023fefe02d16d434d"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Service Provided">e779e4634705021023fefe02d16d43de</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-03-25 21:30:30</sys_created_on>
+        <sys_id>7b7928634705021023fefe02d16d434d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="BabySitter Requester">7b24c4a34741021023fefe02d16d4358</sys_scope>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-03-25 21:30:30</sys_updated_on>
+        <ui_id>b4a8e49d-e205-42ee-82ab-76d84af28753</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7b7928634705021023fefe02d16d434d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7b7928634705021023fefe02d16d434d</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-03-25 21:30:30</sys_created_on>
+        <sys_id>3f7928634705021023fefe02d16d434f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-03-25 21:30:30</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7b7928634705021023fefe02d16d434d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>7b7928634705021023fefe02d16d434d</id>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-03-25 21:30:30</sys_created_on>
+        <sys_id>f77928634705021023fefe02d16d434f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-03-25 21:30:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;Hello&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:e3917090-84e9-4963-8211-41c60fbc8e40}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:e3917090-84e9-4963-8211-41c60fbc8e40}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Updated &amp;gt; BabySitter Request Record &amp;gt; Requester &amp;gt; First name"&gt;&lt;span class="pill-start"&gt;Trigger - Record Updated&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;First name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_e3917090-84e9-4963-8211-41c60fbc8e40" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Your babysitter request number&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:0d340259-e693-4578-894c-b5ea1ee02ff5}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:0d340259-e693-4578-894c-b5ea1ee02ff5}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Updated &amp;gt; BabySitter Request Record &amp;gt; Number"&gt;&lt;span class="pill-start"&gt;Trigger - Record Updated&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Number&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_0d340259-e693-4578-894c-b5ea1ee02ff5" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; has been provided.&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Please send you feedback to us ( email: &lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:fddf135f-e941-4f49-8e5b-d4e9253c8d62}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:fddf135f-e941-4f49-8e5b-d4e9253c8d62}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Updated &amp;gt; BabySitter Request Record &amp;gt; Assignment group &amp;gt; Manager &amp;gt; Email"&gt;&lt;span class="pill-start"&gt;Trigger - Record Updated&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Email&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_fddf135f-e941-4f49-8e5b-d4e9253c8d62" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;) . Your feedback will help us improve our service.&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Thank you for your business.&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;BabySitter Group&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:c1bf0755-5d49-4aae-9c78-23836097fe67}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:c1bf0755-5d49-4aae-9c78-23836097fe67}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Updated &amp;gt; BabySitter Request Record &amp;gt; Assignment group &amp;gt; Manager &amp;gt; First name"&gt;&lt;span class="pill-start"&gt;Trigger - Record Updated&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;First name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_c1bf0755-5d49-4aae-9c78-23836097fe67" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:14ec9cec-296b-43f2-b29c-653330f75730}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:14ec9cec-296b-43f2-b29c-653330f75730}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Updated &amp;gt; BabySitter Request Record &amp;gt; Assignment group &amp;gt; Manager &amp;gt; Last name"&gt;&lt;span class="pill-start"&gt;Trigger - Record Updated&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Last name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_14ec9cec-296b-43f2-b29c-653330f75730" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>7b7928634705021023fefe02d16d434d</id>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-03-25 21:30:30</sys_created_on>
+        <sys_id>bb7928634705021023fefe02d16d434f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-03-25 21:30:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>Your request {{Updated_1.current.number}} has been fulfilled</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>7b7928634705021023fefe02d16d434d</id>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-03-25 21:30:30</sys_created_on>
+        <sys_id>377928634705021023fefe02d16d434f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-03-25 21:30:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Updated_1.current.requester.email}} </value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7b7928634705021023fefe02d16d434d"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=7b7928634705021023fefe02d16d434d"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=e779e4634705021023fefe02d16d43de"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=e779e4634705021023fefe02d16d43de"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=e779e4634705021023fefe02d16d43de^sys_idNOT IN337928634705021023fefe02d16d4352,377928634705021023fefe02d16d4352,3f7928634705021023fefe02d16d4351,b37928634705021023fefe02d16d4352,bf7928634705021023fefe02d16d4351"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>e779e4634705021023fefe02d16d43de</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Updated_1.current.assignment_group.manager.last_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-03-25 21:30:30</sys_created_on>
+        <sys_id>337928634705021023fefe02d16d4352</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="BabySitter Requester">7b24c4a34741021023fefe02d16d4358</sys_scope>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-03-25 21:30:30</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>14ec9cec-296b-43f2-b29c-653330f75730</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>e779e4634705021023fefe02d16d43de</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Updated_1.current.number}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-03-25 21:30:30</sys_created_on>
+        <sys_id>377928634705021023fefe02d16d4352</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="BabySitter Requester">7b24c4a34741021023fefe02d16d4358</sys_scope>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-03-25 21:30:30</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>0d340259-e693-4578-894c-b5ea1ee02ff5</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>e779e4634705021023fefe02d16d43de</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Updated_1.current.requester.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-03-25 21:30:30</sys_created_on>
+        <sys_id>3f7928634705021023fefe02d16d4351</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="BabySitter Requester">7b24c4a34741021023fefe02d16d4358</sys_scope>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-03-25 21:30:30</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>e3917090-84e9-4963-8211-41c60fbc8e40</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>e779e4634705021023fefe02d16d43de</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Updated_1.current.assignment_group.manager.email}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-03-25 21:30:30</sys_created_on>
+        <sys_id>b37928634705021023fefe02d16d4352</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="BabySitter Requester">7b24c4a34741021023fefe02d16d4358</sys_scope>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-03-25 21:30:30</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>fddf135f-e941-4f49-8e5b-d4e9253c8d62</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>e779e4634705021023fefe02d16d43de</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Updated_1.current.assignment_group.manager.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-03-25 21:30:30</sys_created_on>
+        <sys_id>bf7928634705021023fefe02d16d4351</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="BabySitter Requester">7b24c4a34741021023fefe02d16d4358</sys_scope>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-03-25 21:30:30</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>c1bf0755-5d49-4aae-9c78-23836097fe67</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=e779e4634705021023fefe02d16d43de"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_e779e4634705021023fefe02d16d43de^sys_idNOT IN2379e4634705021023fefe02d16d43f0,6379e4634705021023fefe02d16d43f8,ef79e4634705021023fefe02d16d43ff"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_e779e4634705021023fefe02d16d43de</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-03-25 21:30:29</sys_created_on>
+        <sys_id>2379e4634705021023fefe02d16d43f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="BabySitter Requester" source="x_1311516_babysi_0">7b24c4a34741021023fefe02d16d4358</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BabySitter Requester">7b24c4a34741021023fefe02d16d4358</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-03-25 21:30:29</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_e779e4634705021023fefe02d16d43de</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-03-25 21:30:30</sys_created_on>
+        <sys_id>6379e4634705021023fefe02d16d43f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="BabySitter Requester" source="x_1311516_babysi_0">7b24c4a34741021023fefe02d16d4358</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BabySitter Requester">7b24c4a34741021023fefe02d16d4358</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-03-25 21:30:30</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_e779e4634705021023fefe02d16d43de</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-03-25 21:30:30</sys_created_on>
+        <sys_id>ef79e4634705021023fefe02d16d43ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="BabySitter Requester" source="x_1311516_babysi_0">7b24c4a34741021023fefe02d16d4358</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BabySitter Requester">7b24c4a34741021023fefe02d16d4358</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-03-25 21:30:30</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_e779e4634705021023fefe02d16d43de"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_e779e4634705021023fefe02d16d43de"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_e779e4634705021023fefe02d16d43de"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>9a28e46f47c1021023fefe02d16d43f2</sys_id>
+        <latest_snapshot>e779e4634705021023fefe02d16d43de</latest_snapshot>
+        <compiler_build>glide-vancouver-07-06-2023__patch2-hotfix1-10-04-2023_10-06-2023_1235.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=9a28e46f47c1021023fefe02d16d43f2^sys_idNOT INbf7928634705021023fefe02d16d436c"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"bf7928634705021023fefe02d16d436c","name":"plan","plan_signature":null}}</plan>
+        <plan_id>9a28e46f47c1021023fefe02d16d43f2</plan_id>
+        <snapshot>8722f1a74749021023fefe02d16d430b</snapshot>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-03-25 21:30:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bf7928634705021023fefe02d16d436c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-03-25 21:30:30</sys_updated_on>
+        <trigger display_value="">ff7928634705021023fefe02d16d436a</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=9a28e46f47c1021023fefe02d16d43f2"/>
+</record_update>
