@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">1bf89c54b159c2102b9275246f1ab61a</canvas>
+        <component display_value="Calendar Report">259e0221ff18a75c5f5f0fb28fa5d32f</component>
+        <component_props>{"table":"x_1311516_babysi_0_babysitter_request","reportSource":"","encodedQuery":"active=true^state=2^assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe","startDateField":"start_date_time","endDateField":"end_date_time","eventDisplayFields":"number","componentTitle":"","followFilters":true,"showFilterOverview":true,"showDescription":true,"componentDescription":"","viewType":"MONTH","eventColor":"","filterConfigurations":"@state.parFilters"}</component_props>
+        <h>16</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-03-28 04:13:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>d3f89c54f259c210eaad59ea26c58f19</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="BabySitter Requester" source="x_1311516_babysi_0">7b24c4a34741021023fefe02d16d4358</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BabySitter Requester">7b24c4a34741021023fefe02d16d4358</sys_scope>
+        <sys_update_name>par_dashboard_widget_d3f89c54f259c210eaad59ea26c58f19</sys_update_name>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-03-28 05:31:35</sys_updated_on>
+        <visualization/>
+        <w>48</w>
+        <widget_props/>
+        <x>0</x>
+        <y>12</y>
+    </par_dashboard_widget>
+</record_update>
