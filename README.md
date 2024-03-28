@@ -46,3 +46,8 @@ This application provides different list view and form view based on different r
 
 **Follow/DIscuss**
 Requesters, manager, and babysitter can follow/discuss the request during the whole process, which provides convenent and direct communication to keep the process clear and transparent. 
+
+**Workspaces**
+Created 2 workspaces for manager and babysitter. Added single score, calendar, pie chart and column chart to provide data visulization.
+Fixed the problem that babysitter doesn't have access to view the data. How to solve it. Elevate to Security_admin, created a new report_view ACL, granted the babysitter group access to vew the report. 
+
