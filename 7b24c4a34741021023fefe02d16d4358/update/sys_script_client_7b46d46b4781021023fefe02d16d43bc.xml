@@ -6,7 +6,7 @@
         <description/>
         <field/>
         <global>true</global>
-        <isolate_script>true</isolate_script>
+        <isolate_script>false</isolate_script>
         <messages/>
         <name>date validation when submit</name>
         <order/>
@@ -17,11 +17,11 @@
 	var end = getDateFromFormat(g_form.getValue("end_date_time"), g_user_date_time_format);
     
     if (start <= now) {
-		alert("start date/time before now. current time: " + now + "start at: " + start);
+		alert("start date/time mus be after current time.");
         g_form.addErrorMessage("Start Date must be after current time.");
         return false;
     }else if (start >= end) {
-		alert("run in IF. start later than end。 start at " + start + " end at " + end);
+		alert("start date/time must be before end date/time");
         g_form.addErrorMessage("Start Time must be after End Time.");
         return false;
     }
@@ -33,7 +33,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7b46d46b4781021023fefe02d16d43bc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>date validation when submit</sys_name>
         <sys_overrides/>
         <sys_package display_value="BabySitter Requester" source="x_1311516_babysi_0">7b24c4a34741021023fefe02d16d4358</sys_package>
@@ -41,7 +41,7 @@
         <sys_scope display_value="BabySitter Requester">7b24c4a34741021023fefe02d16d4358</sys_scope>
         <sys_update_name>sys_script_client_7b46d46b4781021023fefe02d16d43bc</sys_update_name>
         <sys_updated_by>shu</sys_updated_by>
-        <sys_updated_on>2024-03-25 20:09:02</sys_updated_on>
+        <sys_updated_on>2024-03-28 23:41:45</sys_updated_on>
         <table>x_1311516_babysi_0_babysitter_request</table>
         <type>onSubmit</type>
         <ui_type>10</ui_type>
