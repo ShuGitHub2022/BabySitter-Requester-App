@@ -8,7 +8,7 @@
         <element function_definition="False" label="Completed" max_length="40" name="completed" type="boolean"/>
         <element label="End Date/Time" mandatory="true" max_length="40" name="end_date_time" type="glide_date_time"/>
         <element label="Location" mandatory="true" max_length="40" name="locatio0" type="string"/>
-        <element display="true" label="Phone" mandatory="true" max_length="20" name="phone" type="string"/>
+        <element label="Phone" mandatory="true" max_length="20" name="phone" type="string"/>
         <element label="Requester" mandatory="true" max_length="32" name="requester" read_only="true" reference="sys_user" type="reference"/>
         <element label="Start Date/TIme" mandatory="true" max_length="40" name="start_date_time" type="glide_date_time"/>
     </element>
