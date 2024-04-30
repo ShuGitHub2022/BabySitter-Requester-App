@@ -2351,6 +2351,20 @@
                             },
                             "order": 200,
                             "type": "local"
+                        },
+                        {
+                            "icon": "graduation-cap-outline",
+                            "id": "clvfv8pcm019w3j7phszzptqt",
+                            "label": {
+                                "type": "TRANSLATION_LITERAL",
+                                "value": {
+                                    "code": null,
+                                    "comment": "",
+                                    "message": "Agent Assist"
+                                }
+                            },
+                            "order": 300,
+                            "type": "local"
                         }
                     ],
                     "overrides": {
@@ -2435,12 +2449,13 @@
                                             "root": null,
                                             "rules": null,
                                             "styles": {
+                                                "display": "flex",
                                                 "height": "calc( 100% - ( (2rem * var(--now-scale-space--xl, 1)) + (var(--now-scale-space--xl, 1) * var(--now-static-space--xl))))",
                                                 "overflow": "auto",
                                                 "padding": "calc(var(--now-scale-space--xl, 1) * var(--now-static-space--xl))"
                                             },
                                             "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
-                                            "type": "grid"
+                                            "type": "flex"
                                         },
                                         "version": "3.0.0"
                                     }
@@ -2619,6 +2634,113 @@
                                     "height": "100%",
                                     "width": "100%"
                                 }
+                            },
+                            {
+                                "definition": {
+                                    "id": "d356d14b6e293a3020a244b63d278d8f",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "clvfviipcqaabbjjxddjhhpffeexvffxvg",
+                                "elementLabel": "Agent Assist",
+                                "eventMappings": [
+                                    
+                                ],
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "name": "Agent Assist",
+                                "overrides": {
+                                    "composition": [
+                                        {
+                                            "definition": {
+                                                "id": "cf203eb517e037bf0a780f0de3ae544e",
+                                                "type": "MACROPONENT"
+                                            },
+                                            "elementId": "agent_assist_1",
+                                            "elementLabel": "Agent assist 1",
+                                            "eventMappings": [
+                                                
+                                            ],
+                                            "isHidden": {
+                                                "type": "JSON_LITERAL",
+                                                "value": null
+                                            },
+                                            "preset": {
+                                                "controllerElementId": "record",
+                                                "disabledEventTargetIds": [
+                                                    
+                                                ],
+                                                "id": "87d83e39b38eae90b654532b737b2dc9"
+                                            },
+                                            "propertyValues": {
+                                                "prefetchData": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                }
+                                            },
+                                            "slot": null,
+                                            "styles": null
+                                        }
+                                    ],
+                                    "layout": {
+                                        "default": {
+                                            "children": null,
+                                            "items": [
+                                                {
+                                                    "element_id": "agent_assist_1",
+                                                    "styles": {}
+                                                }
+                                            ],
+                                            "root": null,
+                                            "rules": null,
+                                            "styles": {
+                                                "min-height": "300px",
+                                                "width": "100%"
+                                            },
+                                            "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+                                            "type": "flex"
+                                        },
+                                        "version": "3.0.0"
+                                    }
+                                },
+                                "preset": null,
+                                "propertyValues": {
+                                    "ariaRegionHeadingLevel": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "1"
+                                    },
+                                    "ariaRegionName": {
+                                        "type": "TRANSLATION_LITERAL",
+                                        "value": {
+                                            "code": null,
+                                            "comment": "",
+                                            "message": ""
+                                        }
+                                    },
+                                    "ariaRole": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "hideEmptyStateUi": {
+                                        "type": "JSON_LITERAL",
+                                        "value": true
+                                    },
+                                    "includeAriaHeading": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "slotWrapperBehavior": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "fullheight"
+                                    },
+                                    "type": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "section"
+                                    }
+                                },
+                                "slot": "clvfv8pcm019w3j7phszzptqt",
+                                "styles": null
                             }
                         ],
                         "layout": null
@@ -2626,38 +2748,17 @@
                     "preset": null,
                     "propertyValues": {
                         "activeRoute": {
-                            "conditional": {
-                                "operation": {
-                                    "left": {
-                                        "binding": {
-                                            "address": [
-                                                "table"
-                                            ],
-                                            "category": "props"
-                                        },
-                                        "type": "CONTEXT_BINDING"
-                                    },
-                                    "operator": "NOT_EQUAL",
-                                    "right": {
-                                        "type": "JSON_LITERAL",
-                                        "value": "incident"
-                                    }
-                                },
-                                "type": "BINARY"
-                            },
-                            "extensionPoint": null,
-                            "icon": "graduation-cap-outline",
-                            "id": "cl1kankhk01893f71opig588d",
+                            "icon": "map-pin-outline",
+                            "id": "clvhbsho601ax3j7pragn2dv5",
                             "label": {
                                 "type": "TRANSLATION_LITERAL",
                                 "value": {
                                     "code": null,
                                     "comment": "",
-                                    "message": "Agent assist"
+                                    "message": "Map"
                                 }
                             },
-                            "order": 100,
-                            "routeType": "cl1kankhk01893f71opig588d",
+                            "order": 400,
                             "type": "local"
                         },
                         "defaultRoute": null,
@@ -5317,7 +5418,7 @@
   "message" : "Activity",
   "comment" : ""
 }, {
-  "message" : "Agent assist",
+  "message" : "Agent Assist",
   "comment" : ""
 }, {
   "message" : "Attachment",
@@ -5351,6 +5452,9 @@
   "comment" : ""
 }, {
   "message" : "List of record activities and input fields for posting work notes or comments",
+  "comment" : ""
+}, {
+  "message" : "Map",
   "comment" : ""
 }, {
   "message" : "Record History",
@@ -5393,14 +5497,14 @@
         <sys_created_by>shu</sys_created_by>
         <sys_created_on>2024-03-28 03:42:07</sys_created_on>
         <sys_id>feb11c1c4719c21023fefe02d16d432e</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_name>BabySitter Request Record Page</sys_name>
         <sys_package display_value="BabySitter Requester" source="x_1311516_babysi_0">7b24c4a34741021023fefe02d16d4358</sys_package>
         <sys_policy/>
         <sys_scope display_value="BabySitter Requester">7b24c4a34741021023fefe02d16d4358</sys_scope>
         <sys_update_name>sys_ux_macroponent_feb11c1c4719c21023fefe02d16d432e</sys_update_name>
         <sys_updated_by>shu</sys_updated_by>
-        <sys_updated_on>2024-03-28 03:42:08</sys_updated_on>
+        <sys_updated_on>2024-04-27 00:23:50</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=feb11c1c4719c21023fefe02d16d432e"/>
 </record_update>

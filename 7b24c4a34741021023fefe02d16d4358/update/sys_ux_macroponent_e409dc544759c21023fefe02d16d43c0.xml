@@ -2330,26 +2330,32 @@
                                     "message": "Attachment"
                                 }
                             },
-                            "order": 100,
+                            "order": 0,
                             "type": "local"
                         },
                         {
-                            "conditional": {
-                                "type": "JSON_LITERAL",
-                                "value": null
-                            },
-                            "extensionPoint": null,
-                            "icon": "document-outline",
-                            "id": "cl1kat6qr018u3f717uit8kll",
-                            "label": {
-                                "type": "TRANSLATION_LITERAL",
-                                "value": {
-                                    "code": null,
-                                    "comment": "",
-                                    "message": "Template"
+                            "actions": [
+                                {
+                                    "icon": "sliders-outline",
+                                    "id": "SN_UIB_LOCAL_TAB_SETTINGS#CLICKED",
+                                    "label": "Settings",
+                                    "tooltipString": "Settings"
                                 }
+                            ],
+                            "colors": [
+                                "rgb(var(--now-color--neutral-18))"
+                            ],
+                            "icon": "graduation-cap-outline",
+                            "id": "clvfj5qa307in3j7p8r0eeqbt",
+                            "isDraggable": true,
+                            "isExpanded": false,
+                            "isSelected": true,
+                            "label": {
+                                "type": "JSON_LITERAL",
+                                "value": "Agent Assit"
                             },
-                            "order": 200,
+                            "modifierLabel": "TAB",
+                            "order": 100,
                             "type": "local"
                         }
                     ],
@@ -2484,73 +2490,51 @@
                                 }
                             },
                             {
-                                "conditionals": null,
                                 "definition": {
                                     "id": "d356d14b6e293a3020a244b63d278d8f",
                                     "type": "MACROPONENT"
                                 },
-                                "elementId": "clbbkatggrcaabbiivddfhhbbccjocthqm",
-                                "elementLabel": "Template",
+                                "elementId": "clvfjffqaggaahhioddjhhpglaauffaakq",
+                                "elementLabel": "Agent Assit",
                                 "eventMappings": [
                                     
                                 ],
-                                "extensionPoints": [
-                                    
-                                ],
-                                "isHero": false,
                                 "isHidden": {
                                     "type": "JSON_LITERAL",
                                     "value": null
                                 },
-                                "isNonDestructive": false,
-                                "items": [
-                                    
-                                ],
+                                "name": "Agent Assit",
                                 "overrides": {
                                     "composition": [
                                         {
-                                            "conditionals": null,
                                             "definition": {
-                                                "id": "9fa0b553c3649c0254f64f3a7983e61e",
+                                                "id": "cf203eb517e037bf0a780f0de3ae544e",
                                                 "type": "MACROPONENT"
                                             },
-                                            "elementId": "form_templates",
-                                            "elementLabel": "Form Template tab item",
+                                            "elementId": "agent_assist",
+                                            "elementLabel": "Agent Assist",
                                             "eventMappings": [
                                                 
                                             ],
-                                            "extensionPoints": [
-                                                
-                                            ],
-                                            "isHero": false,
                                             "isHidden": {
                                                 "type": "JSON_LITERAL",
                                                 "value": null
                                             },
-                                            "isNonDestructive": false,
-                                            "items": [
-                                                
-                                            ],
                                             "preset": {
                                                 "controllerElementId": "record",
                                                 "disabledEventTargetIds": [
                                                     
                                                 ],
-                                                "id": "7288829a5f3eac46f3ba9b509e985f1e"
+                                                "id": "87d83e39b38eae90b654532b737b2dc9"
                                             },
                                             "propertyValues": {
-                                                "hideMyTemplates": {
+                                                "prefetchData": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "usePreferredResourceOnLoad": {
                                                     "type": "JSON_LITERAL",
                                                     "value": false
-                                                },
-                                                "refreshRequested": {
-                                                    "binding": {
-                                                        "address": [
-                                                            "record",
-                                                            "templatesRefresh"
-                                                        ]
-                                                    },
-                                                    "type": "DATA_OUTPUT_BINDING"
                                                 }
                                             },
                                             "slot": null,
@@ -2560,21 +2544,29 @@
                                     "layout": {
                                         "default": {
                                             "children": null,
-                                            "isInline": null,
                                             "items": [
                                                 {
-                                                    "element_id": "form_templates",
+                                                    "element_id": "agent_assist",
                                                     "styles": {
-                                                        "height": "100%",
-                                                        "position": "relative",
-                                                        "width": "100%"
+                                                        "align-self": "stretch",
+                                                        "flex": "0 1 auto",
+                                                        "height": "",
+                                                        "width": ""
                                                     }
                                                 }
                                             ],
                                             "root": null,
                                             "rules": null,
                                             "styles": {
+                                                "display": "flex",
+                                                "flex-direction": "column",
+                                                "gap": "1px",
+                                                "grid-auto-columns": "1fr",
+                                                "grid-auto-rows": "1fr",
+                                                "grid-template-columns": "1fr 1fr",
+                                                "grid-template-rows": "1fr 1fr",
                                                 "height": "100%",
+                                                "min-height": "300px",
                                                 "width": "100%"
                                             },
                                             "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
@@ -2609,16 +2601,17 @@
                                         "type": "JSON_LITERAL",
                                         "value": false
                                     },
+                                    "slotWrapperBehavior": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "fullheight"
+                                    },
                                     "type": {
                                         "type": "JSON_LITERAL",
                                         "value": "section"
                                     }
                                 },
-                                "slot": "cl1kat6qr018u3f717uit8kll",
-                                "styles": {
-                                    "height": "100%",
-                                    "width": "100%"
-                                }
+                                "slot": "clvfj5qa307in3j7p8r0eeqbt",
+                                "styles": null
                             }
                         ],
                         "layout": null
@@ -2626,38 +2619,17 @@
                     "preset": null,
                     "propertyValues": {
                         "activeRoute": {
-                            "conditional": {
-                                "operation": {
-                                    "left": {
-                                        "binding": {
-                                            "address": [
-                                                "table"
-                                            ],
-                                            "category": "props"
-                                        },
-                                        "type": "CONTEXT_BINDING"
-                                    },
-                                    "operator": "NOT_EQUAL",
-                                    "right": {
-                                        "type": "JSON_LITERAL",
-                                        "value": "incident"
-                                    }
-                                },
-                                "type": "BINARY"
-                            },
-                            "extensionPoint": null,
-                            "icon": "graduation-cap-outline",
-                            "id": "cl1kankhk01893f71opig588d",
+                            "icon": "abc-fill",
+                            "id": "clvfj5qa307in3j7p8r0eeqbt",
                             "label": {
                                 "type": "TRANSLATION_LITERAL",
                                 "value": {
                                     "code": null,
                                     "comment": "",
-                                    "message": "Agent assist"
+                                    "message": "Agent Assit"
                                 }
                             },
-                            "order": 100,
-                            "routeType": "cl1kankhk01893f71opig588d",
+                            "order": 300,
                             "type": "local"
                         },
                         "defaultRoute": null,
@@ -5317,7 +5289,7 @@
   "message" : "Activity",
   "comment" : ""
 }, {
-  "message" : "Agent assist",
+  "message" : "Agent Assit",
   "comment" : ""
 }, {
   "message" : "Attachment",
@@ -5371,7 +5343,7 @@
   "message" : "Security constraints prevent access to requested page",
   "comment" : ""
 }, {
-  "message" : "Template",
+  "message" : "Settings",
   "comment" : ""
 }, {
   "message" : "Top pane",
@@ -5393,14 +5365,14 @@
         <sys_created_by>shu</sys_created_by>
         <sys_created_on>2024-03-28 04:13:55</sys_created_on>
         <sys_id>e409dc544759c21023fefe02d16d43c0</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_name>BabySitter Request Record Page</sys_name>
         <sys_package display_value="BabySitter Requester" source="x_1311516_babysi_0">7b24c4a34741021023fefe02d16d4358</sys_package>
         <sys_policy/>
         <sys_scope display_value="BabySitter Requester">7b24c4a34741021023fefe02d16d4358</sys_scope>
         <sys_update_name>sys_ux_macroponent_e409dc544759c21023fefe02d16d43c0</sys_update_name>
         <sys_updated_by>shu</sys_updated_by>
-        <sys_updated_on>2024-03-28 04:13:56</sys_updated_on>
+        <sys_updated_on>2024-04-25 23:32:51</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=e409dc544759c21023fefe02d16d43c0"/>
 </record_update>
