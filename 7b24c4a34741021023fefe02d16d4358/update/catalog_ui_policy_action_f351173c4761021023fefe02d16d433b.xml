@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Request Babysitter">eb1ac3f04761021023fefe02d16d4333</catalog_item>
+        <catalog_variable>IO:037f83784761021023fefe02d16d43d5</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-04-11 17:12:18</sys_created_on>
+        <sys_id>f351173c4761021023fefe02d16d433b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>allergy_list</sys_name>
+        <sys_package display_value="BabySitter Requester" source="x_1311516_babysi_0">7b24c4a34741021023fefe02d16d4358</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BabySitter Requester">7b24c4a34741021023fefe02d16d4358</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_f351173c4761021023fefe02d16d433b</sys_update_name>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-04-11 17:12:18</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Making &quot;allergy_list&quot; visible and mandatory if Allery is Yes.">ce3157f84761021023fefe02d16d43e6</ui_policy>
+        <variable>allergy_list</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

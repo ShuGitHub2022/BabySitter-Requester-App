@@ -4,41 +4,27 @@
             <element>comments</element>
             <position>0</position>
             <sys_created_by>shu</sys_created_by>
-            <sys_created_on>2024-03-27 04:38:25</sys_created_on>
-            <sys_id>7d0593fb4781821023fefe02d16d4380</sys_id>
+            <sys_created_on>2024-03-28 23:52:34</sys_created_on>
+            <sys_id>06c62064471d061023fefe02d16d43fe</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Comments" display_value="Comments" name="x_1311516_babysi_0_babysitter_request" sys_domain="global" view="303f40234781021023fefe02d16d4355">f03f80234781021023fefe02d16d4320</sys_ui_section>
             <sys_updated_by>shu</sys_updated_by>
-            <sys_updated_on>2024-03-27 04:38:25</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>work_notes</element>
-            <position>1</position>
-            <sys_created_by>shu</sys_created_by>
-            <sys_created_on>2024-03-27 04:38:25</sys_created_on>
-            <sys_id>fd0593fb4781821023fefe02d16d4380</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Comments" display_value="Comments" name="x_1311516_babysi_0_babysitter_request" sys_domain="global" view="303f40234781021023fefe02d16d4355">f03f80234781021023fefe02d16d4320</sys_ui_section>
-            <sys_updated_by>shu</sys_updated_by>
-            <sys_updated_on>2024-03-27 04:38:25</sys_updated_on>
+            <sys_updated_on>2024-03-28 23:52:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>activity.xml</element>
-            <position>2</position>
+            <position>1</position>
             <sys_created_by>shu</sys_created_by>
-            <sys_created_on>2024-03-27 04:38:25</sys_created_on>
-            <sys_id>710593fb4781821023fefe02d16d4381</sys_id>
+            <sys_created_on>2024-03-28 23:52:34</sys_created_on>
+            <sys_id>0ac62064471d061023fefe02d16d43fe</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
             <sys_ui_section caption="Comments" display_value="Comments" name="x_1311516_babysi_0_babysitter_request" sys_domain="global" view="303f40234781021023fefe02d16d4355">f03f80234781021023fefe02d16d4320</sys_ui_section>
             <sys_updated_by>shu</sys_updated_by>
-            <sys_updated_on>2024-03-27 04:38:25</sys_updated_on>
+            <sys_updated_on>2024-03-28 23:52:34</sys_updated_on>
             <sys_user/>
             <type>formatter</type>
         </sys_ui_element>

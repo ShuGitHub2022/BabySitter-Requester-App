@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
     <sc_cat_item_producer action="INSERT_OR_UPDATE">
         <access_type>restricted</access_type>
-        <active>true</active>
+        <active>false</active>
         <allow_edit>false</allow_edit>
         <availability>on_desktop</availability>
         <billable>false</billable>
         <can_cancel>false</can_cancel>
         <category display_value="Can We Help You?">e15706fc0a0a0aa7007fc21e1ab70c2f</category>
-        <checked_out/>
+        <checked_out>false</checked_out>
         <cost>0</cost>
         <custom_cart/>
         <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
@@ -83,19 +83,19 @@ producer.redirect="/x_1311516_babysi_0_babysitter_request_list.do?sysparm_query=
         <short_description>Please submit BabySitter Request</short_description>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
-        <state/>
+        <state>published</state>
         <sys_class_name>sc_cat_item_producer</sys_class_name>
         <sys_created_by>shu</sys_created_by>
         <sys_created_on>2024-03-25 20:33:47</sys_created_on>
         <sys_id>6f2c582347c1021023fefe02d16d43a6</sys_id>
-        <sys_mod_count>51</sys_mod_count>
+        <sys_mod_count>58</sys_mod_count>
         <sys_name>BabySitter Requester</sys_name>
         <sys_package display_value="BabySitter Requester" source="x_1311516_babysi_0">7b24c4a34741021023fefe02d16d4358</sys_package>
         <sys_policy/>
         <sys_scope display_value="BabySitter Requester">7b24c4a34741021023fefe02d16d4358</sys_scope>
         <sys_update_name>sc_cat_item_producer_6f2c582347c1021023fefe02d16d43a6</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-03-27 04:48:19</sys_updated_on>
+        <sys_updated_on>2024-04-21 03:07:37</sys_updated_on>
         <table_name>x_1311516_babysi_0_babysitter_request</table_name>
         <taxonomy_topic/>
         <template/>
@@ -103,7 +103,7 @@ producer.redirect="/x_1311516_babysi_0_babysitter_request_list.do?sysparm_query=
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>52</version>
+        <version>59</version>
         <view/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>

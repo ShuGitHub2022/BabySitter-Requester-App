@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" db_object_id="255a806b4741021023fefe02d16d4348" extends="task" label="BabySitter Request" max_length="40" name="x_1311516_babysi_0_babysitter_request" type="collection">
-        <element display="true" label="Additional Information" max_length="200" name="additional_information" type="string"/>
+        <element label="Additional Information" max_length="200" name="additional_information" type="string"/>
         <element function_definition="0" label="Allergy" mandatory="true" max_length="40" name="allergy" type="boolean"/>
         <element label="Allergy List" max_length="40" name="allergy_list" type="string"/>
         <element label="Children Age" max_length="40" name="children_age" type="string"/>
@@ -8,7 +8,7 @@
         <element function_definition="False" label="Completed" max_length="40" name="completed" type="boolean"/>
         <element label="End Date/Time" mandatory="true" max_length="40" name="end_date_time" type="glide_date_time"/>
         <element label="Location" mandatory="true" max_length="40" name="locatio0" type="string"/>
-        <element label="Phone" mandatory="true" max_length="40" name="phone" type="phone_number_e164"/>
+        <element label="Phone" mandatory="true" max_length="20" name="phone" type="string"/>
         <element label="Requester" mandatory="true" max_length="32" name="requester" read_only="true" reference="sys_user" type="reference"/>
         <element label="Start Date/TIme" mandatory="true" max_length="40" name="start_date_time" type="glide_date_time"/>
     </element>

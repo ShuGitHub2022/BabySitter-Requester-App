@@ -4,20 +4,20 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=114083000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=1026711000,viewActivatedIn=naturalLanguage</attributes>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description>after manager assign the babysitter to the requester, update state to assigned and send notification email</description>
         <internal_name>babysitter_assigned</internal_name>
-        <label_cache>[{"name":"e11b091f-e60d-4acf-ba5d-7c2f9f19b31d.record.assignment_group.manager.email","label":"1 - Update Record➛BabySitter Request Record➛Assignment group➛Manager➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"e11b091f-e60d-4acf-ba5d-7c2f9f19b31d.record.end_date_time","label":"1 - Update Record➛BabySitter Request Record➛End Date/Time","reference":"","reference_display":"End Date/Time","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_1311516_babysi_0_babysitter_request","column_name":"end_date_time"},{"name":"e11b091f-e60d-4acf-ba5d-7c2f9f19b31d.record.start_date_time","label":"1 - Update Record➛BabySitter Request Record➛Start Date/TIme","reference":"","reference_display":"Start Date/TIme","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_1311516_babysi_0_babysitter_request","column_name":"start_date_time"},{"name":"e11b091f-e60d-4acf-ba5d-7c2f9f19b31d.record.assigned_to.last_name","label":"1 - Update Record➛BabySitter Request Record➛Assigned to➛Last name","reference":"","reference_display":"Last name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"last_name"},{"name":"e11b091f-e60d-4acf-ba5d-7c2f9f19b31d.record.assigned_to.first_name","label":"1 - Update Record➛BabySitter Request Record➛Assigned to➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"e11b091f-e60d-4acf-ba5d-7c2f9f19b31d.record.requester.first_name","label":"1 - Update Record➛BabySitter Request Record➛Requester➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"e11b091f-e60d-4acf-ba5d-7c2f9f19b31d.record.number","label":"1 - Update Record➛BabySitter Request Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1311516_babysi_0_babysitter_request","column_name":"number"},{"name":"e11b091f-e60d-4acf-ba5d-7c2f9f19b31d.record.requester.email","label":"1 - Update Record➛BabySitter Request Record➛Requester➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"Updated_1.current","label":"Trigger - Record Updated➛BabySitter Request Record","reference":"x_1311516_babysi_0_babysitter_request","reference_display":"BabySitter Request","type":"reference","base_type":"reference","attributes":{}}]</label_cache>
+        <label_cache>[{"name":"e11b091f-e60d-4acf-ba5d-7c2f9f19b31d.record.assigned_to.email","label":"1 - Update Record➛BabySitter Request Record➛Assigned to➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"e11b091f-e60d-4acf-ba5d-7c2f9f19b31d.record.assignment_group.manager.email","label":"1 - Update Record➛BabySitter Request Record➛Assignment group➛Manager➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"e11b091f-e60d-4acf-ba5d-7c2f9f19b31d.record.end_date_time","label":"1 - Update Record➛BabySitter Request Record➛End Date/Time","reference":"","reference_display":"End Date/Time","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_1311516_babysi_0_babysitter_request","column_name":"end_date_time"},{"name":"e11b091f-e60d-4acf-ba5d-7c2f9f19b31d.record.start_date_time","label":"1 - Update Record➛BabySitter Request Record➛Start Date/TIme","reference":"","reference_display":"Start Date/TIme","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_1311516_babysi_0_babysitter_request","column_name":"start_date_time"},{"name":"e11b091f-e60d-4acf-ba5d-7c2f9f19b31d.record.assigned_to.last_name","label":"1 - Update Record➛BabySitter Request Record➛Assigned to➛Last name","reference":"","reference_display":"Last name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"last_name"},{"name":"e11b091f-e60d-4acf-ba5d-7c2f9f19b31d.record.assigned_to.first_name","label":"1 - Update Record➛BabySitter Request Record➛Assigned to➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"e11b091f-e60d-4acf-ba5d-7c2f9f19b31d.record.requester.first_name","label":"1 - Update Record➛BabySitter Request Record➛Requester➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"e11b091f-e60d-4acf-ba5d-7c2f9f19b31d.record.number","label":"1 - Update Record➛BabySitter Request Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1311516_babysi_0_babysitter_request","column_name":"number"},{"name":"e11b091f-e60d-4acf-ba5d-7c2f9f19b31d.record.requester.email","label":"1 - Update Record➛BabySitter Request Record➛Requester➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"Updated_1.current","label":"Trigger - Record Updated➛BabySitter Request Record","reference":"x_1311516_babysi_0_babysitter_request","reference_display":"BabySitter Request","type":"reference","base_type":"reference","attributes":{}}]</label_cache>
         <master_snapshot>bdd728ef47c1021023fefe02d16d4392</master_snapshot>
         <name>babysitter assigned</name>
         <natlang/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
-        <remote_trigger_id>0ed768ef47c1021023fefe02d16d4319</remote_trigger_id>
+        <remote_trigger_id>ace2795f4751021023fefe02d16d4343</remote_trigger_id>
         <run_as>system</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
@@ -30,7 +30,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f146e06f47c1021023fefe02d16d43af</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_name>babysitter assigned</sys_name>
         <sys_overrides/>
         <sys_package display_value="BabySitter Requester" source="x_1311516_babysi_0">7b24c4a34741021023fefe02d16d4358</sys_package>
@@ -38,14 +38,15 @@
         <sys_scope display_value="BabySitter Requester">7b24c4a34741021023fefe02d16d4358</sys_scope>
         <sys_update_name>sys_hub_flow_f146e06f47c1021023fefe02d16d43af</sys_update_name>
         <sys_updated_by>shu</sys_updated_by>
-        <sys_updated_on>2024-03-27 04:57:53</sys_updated_on>
+        <sys_updated_on>2024-04-06 18:28:22</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=f146e06f47c1021023fefe02d16d43af"/>
     <sys_variable_value action="delete_multiple" query="document_key=f146e06f47c1021023fefe02d16d43af"/>
     <sys_flow_record_trigger action="INSERT_OR_UPDATE">
         <active>true</active>
-        <condition table="x_1311516_babysi_0_babysitter_request">assigned_toISNOTEMPTY^ORassigned_toVALCHANGES<item endquery="false" field="assigned_to" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+        <condition table="x_1311516_babysi_0_babysitter_request">stateNOT IN3,4^assigned_toISNOTEMPTY^ORassigned_toVALCHANGES<item display_value="3,4" endquery="false" field="state" goto="false" newquery="false" operator="NOT IN" or="false" value="3,4"/>
+            <item endquery="false" field="assigned_to" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
             <item endquery="false" field="assigned_to" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
         </condition>
         <name/>
@@ -59,15 +60,15 @@
         <run_when_user_setting>any</run_when_user_setting>
         <sys_class_name>sys_flow_record_trigger</sys_class_name>
         <sys_created_by>shu</sys_created_by>
-        <sys_created_on>2024-03-25 21:23:17</sys_created_on>
+        <sys_created_on>2024-04-06 18:28:21</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>0ed768ef47c1021023fefe02d16d4319</sys_id>
+        <sys_id>ace2795f4751021023fefe02d16d4343</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_overrides/>
         <sys_scope display_value="BabySitter Requester">7b24c4a34741021023fefe02d16d4358</sys_scope>
         <sys_updated_by>shu</sys_updated_by>
-        <sys_updated_on>2024-03-25 21:23:17</sys_updated_on>
+        <sys_updated_on>2024-04-06 18:28:21</sys_updated_on>
         <table>x_1311516_babysi_0_babysitter_request</table>
     </sys_flow_record_trigger>
     <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
@@ -76,17 +77,17 @@
         <identifier>f146e06f47c1021023fefe02d16d43af</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>shu</sys_created_by>
-        <sys_created_on>2024-03-27 04:57:52</sys_created_on>
-        <sys_id>7279577347c1821023fefe02d16d43cf</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_created_on>2024-04-06 18:28:21</sys_created_on>
+        <sys_id>28e2795f4751021023fefe02d16d4344</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>shu</sys_updated_by>
-        <sys_updated_on>2024-03-27 04:57:52</sys_updated_on>
-        <trigger display_value="">0ed768ef47c1021023fefe02d16d4319</trigger>
+        <sys_updated_on>2024-04-06 18:28:21</sys_updated_on>
+        <trigger display_value="">ace2795f4751021023fefe02d16d4343</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=f146e06f47c1021023fefe02d16d43af^sys_idNOT IN7279577347c1821023fefe02d16d43cf"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=f146e06f47c1021023fefe02d16d43af^sys_idNOT IN28e2795f4751021023fefe02d16d4344"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=f146e06f47c1021023fefe02d16d43af^sys_idNOT IN50d7e4ef47c1021023fefe02d16d4354"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
-        <comment/>
+        <comment>if the request has not been cancelled or closed, assigned to is not empty or changed</comment>
         <display_text/>
         <flow display_value="babysitter assigned">f146e06f47c1021023fefe02d16d43af</flow>
         <name>Updated</name>
@@ -94,10 +95,10 @@
         <sys_created_by>shu</sys_created_by>
         <sys_created_on>2024-03-25 21:23:10</sys_created_on>
         <sys_id>50d7e4ef47c1021023fefe02d16d4354</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>32</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>shu</sys_updated_by>
-        <sys_updated_on>2024-03-27 04:57:53</sys_updated_on>
+        <sys_updated_on>2024-04-06 18:28:21</sys_updated_on>
         <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -140,10 +141,10 @@
         <sys_created_by>shu</sys_created_by>
         <sys_created_on>2024-03-25 21:23:10</sys_created_on>
         <sys_id>50d7e4ef47c1021023fefe02d16d4355</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>shu</sys_updated_by>
-        <sys_updated_on>2024-03-25 21:23:10</sys_updated_on>
-        <value>assigned_toISNOTEMPTY^ORassigned_toVALCHANGES</value>
+        <sys_updated_on>2024-04-06 18:28:13</sys_updated_on>
+        <value>stateNOT IN3,4^assigned_toISNOTEMPTY^ORassigned_toVALCHANGES</value>
         <variable display_value="Condition">bb9adea0c31322002841b63b12d3ae67</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_bb695e60c31322002841b63b12d3aea5^id=50d7e4ef47c1021023fefe02d16d4354"/>
@@ -309,14 +310,14 @@
         <sys_created_by>shu</sys_created_by>
         <sys_created_on>2024-03-25 21:23:10</sys_created_on>
         <sys_id>90d7e4ef47c1021023fefe02d16d434f</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="BabySitter Requester">7b24c4a34741021023fefe02d16d4358</sys_scope>
         <sys_update_name/>
         <sys_updated_by>shu</sys_updated_by>
-        <sys_updated_on>2024-03-27 04:57:52</sys_updated_on>
+        <sys_updated_on>2024-04-06 18:28:21</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -393,14 +394,14 @@
         <sys_created_by>shu</sys_created_by>
         <sys_created_on>2024-03-25 21:23:10</sys_created_on>
         <sys_id>9cd7e4ef47c1021023fefe02d16d432e</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="BabySitter Requester">7b24c4a34741021023fefe02d16d4358</sys_scope>
         <sys_update_name/>
         <sys_updated_by>shu</sys_updated_by>
-        <sys_updated_on>2024-03-27 04:57:52</sys_updated_on>
+        <sys_updated_on>2024-04-06 18:28:21</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -416,7 +417,86 @@
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=9cd7e4ef47c1021023fefe02d16d432e"/>
     <sys_hub_flow_output action="delete_multiple" query="model=f146e06f47c1021023fefe02d16d43af"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=f146e06f47c1021023fefe02d16d43af"/>
-    <sys_hub_action_instance action="delete_multiple" query="flow=f146e06f47c1021023fefe02d16d43af^sys_idNOT IN9cd7e4ef47c1021023fefe02d16d435a,dcd7e4ef47c1021023fefe02d16d4370"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=f146e06f47c1021023fefe02d16d43af^sys_idNOT IN8351f1db4751021023fefe02d16d43cd,9cd7e4ef47c1021023fefe02d16d435a,dcd7e4ef47c1021023fefe02d16d4370"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="babysitter assigned">f146e06f47c1021023fefe02d16d43af</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-04-06 18:21:42</sys_created_on>
+        <sys_id>8351f1db4751021023fefe02d16d43cd</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_scope display_value="BabySitter Requester">7b24c4a34741021023fefe02d16d4358</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-04-06 18:28:42</sys_updated_on>
+        <ui_id>f945b7db-0c55-457a-8f8b-8264fc5c914d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8351f1db4751021023fefe02d16d43cd"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8351f1db4751021023fefe02d16d43cd</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-04-06 18:21:42</sys_created_on>
+        <sys_id>c351f1db4751021023fefe02d16d43d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-04-06 18:21:42</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=8351f1db4751021023fefe02d16d43cd"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>8351f1db4751021023fefe02d16d43cd</id>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-04-06 18:21:42</sys_created_on>
+        <sys_id>8f51f1db4751021023fefe02d16d43cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-04-06 18:21:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;Hello&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:921f0ed3-03ac-407e-b552-9fd6c3214775}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:921f0ed3-03ac-407e-b552-9fd6c3214775}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="1 - Update Record &amp;gt; BabySitter Request Record &amp;gt; Assigned to &amp;gt; First name"&gt;&lt;span class="pill-start"&gt;1 - Update Record&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;First name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_921f0ed3-03ac-407e-b552-9fd6c3214775" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;A new babysitter request&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:6714a81d-730c-41c0-b34f-565f1a2b3f07}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:6714a81d-730c-41c0-b34f-565f1a2b3f07}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="1 - Update Record &amp;gt; BabySitter Request Record &amp;gt; Number"&gt;&lt;span class="pill-start"&gt;1 - Update Record&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Number&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_6714a81d-730c-41c0-b34f-565f1a2b3f07" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; has just assignem to you. The request will start at&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:59cef7e7-fd31-4d53-86d2-811c46191573}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:59cef7e7-fd31-4d53-86d2-811c46191573}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="1 - Update Record &amp;gt; BabySitter Request Record &amp;gt; Start Date/TIme"&gt;&lt;span class="pill-start"&gt;1 - Update Record&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Start Date/TIme&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_59cef7e7-fd31-4d53-86d2-811c46191573" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; until&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:5739863a-12f1-458a-978c-6f2d775db6ce}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:5739863a-12f1-458a-978c-6f2d775db6ce}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="1 - Update Record &amp;gt; BabySitter Request Record &amp;gt; End Date/Time"&gt;&lt;span class="pill-start"&gt;1 - Update Record&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;End Date/Time&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_5739863a-12f1-458a-978c-6f2d775db6ce" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;.&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Please arrive on time. After providing the service please go the record and click "Complete" button to update the request. If you need any assitance please&amp;nbsp;email&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:d352a027-46d8-4d53-847f-c810d0afbbed}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:d352a027-46d8-4d53-847f-c810d0afbbed}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="1 - Update Record &amp;gt; BabySitter Request Record &amp;gt; Assignment group &amp;gt; Manager &amp;gt; Email"&gt;&lt;span class="pill-start"&gt;1 - Update Record&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Email&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_d352a027-46d8-4d53-847f-c810d0afbbed" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;.&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Thank you for your service.&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;BabySitter Group&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>8351f1db4751021023fefe02d16d43cd</id>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-04-06 18:21:42</sys_created_on>
+        <sys_id>4351f1db4751021023fefe02d16d43d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-04-06 18:21:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>You got a new assignment {{e11b091f-e60d-4acf-ba5d-7c2f9f19b31d.record.number}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>8351f1db4751021023fefe02d16d43cd</id>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-04-06 18:21:42</sys_created_on>
+        <sys_id>8751f1db4751021023fefe02d16d43cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-04-06 18:21:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{e11b091f-e60d-4acf-ba5d-7c2f9f19b31d.record.assigned_to.email}} </value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=8351f1db4751021023fefe02d16d43cd"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=8351f1db4751021023fefe02d16d43cd"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -432,10 +512,10 @@
         <sys_created_by>shu</sys_created_by>
         <sys_created_on>2024-03-25 21:23:10</sys_created_on>
         <sys_id>9cd7e4ef47c1021023fefe02d16d435a</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>70</sys_mod_count>
         <sys_scope display_value="BabySitter Requester">7b24c4a34741021023fefe02d16d4358</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-03-27 05:04:01</sys_updated_on>
+        <sys_updated_on>2024-04-06 18:28:42</sys_updated_on>
         <ui_id>e11b091f-e60d-4acf-ba5d-7c2f9f19b31d</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=9cd7e4ef47c1021023fefe02d16d435a"/>
@@ -521,10 +601,10 @@
         <sys_created_by>shu</sys_created_by>
         <sys_created_on>2024-03-25 21:23:10</sys_created_on>
         <sys_id>dcd7e4ef47c1021023fefe02d16d4370</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>70</sys_mod_count>
         <sys_scope display_value="BabySitter Requester">7b24c4a34741021023fefe02d16d4358</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-03-27 05:04:01</sys_updated_on>
+        <sys_updated_on>2024-04-06 18:28:42</sys_updated_on>
         <ui_id>4b24cb68-11d1-4295-9c0d-3c699593b55d</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=dcd7e4ef47c1021023fefe02d16d4370"/>
@@ -601,7 +681,24 @@
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=dcd7e4ef47c1021023fefe02d16d4370"/>
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=f146e06f47c1021023fefe02d16d43af"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=f146e06f47c1021023fefe02d16d43af"/>
-    <sys_hub_pill_compound action="delete_multiple" query="attached_to=f146e06f47c1021023fefe02d16d43af^sys_idNOT IN14d7e4ef47c1021023fefe02d16d4376,4d79177347c1821023fefe02d16d4314,50d7e4ef47c1021023fefe02d16d4376,5cd7e4ef47c1021023fefe02d16d4376,98d7e4ef47c1021023fefe02d16d4376,9cd7e4ef47c1021023fefe02d16d4375,d4d7e4ef47c1021023fefe02d16d4375,d4d7e4ef47c1021023fefe02d16d4376"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=f146e06f47c1021023fefe02d16d43af^sys_idNOT IN0f51f1db4751021023fefe02d16d43d3,14d7e4ef47c1021023fefe02d16d4376,4b51f1db4751021023fefe02d16d43d3,4d79177347c1821023fefe02d16d4314,50d7e4ef47c1021023fefe02d16d4376,5cd7e4ef47c1021023fefe02d16d4376,8751f1db4751021023fefe02d16d43d3,98d7e4ef47c1021023fefe02d16d4376,9cd7e4ef47c1021023fefe02d16d4375,c351f1db4751021023fefe02d16d43d3,cb51f1db4751021023fefe02d16d43d2,d4d7e4ef47c1021023fefe02d16d4375,d4d7e4ef47c1021023fefe02d16d4376"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>f146e06f47c1021023fefe02d16d43af</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{e11b091f-e60d-4acf-ba5d-7c2f9f19b31d.record.assignment_group.manager.email}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-04-06 18:21:42</sys_created_on>
+        <sys_id>0f51f1db4751021023fefe02d16d43d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="BabySitter Requester">7b24c4a34741021023fefe02d16d4358</sys_scope>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-04-06 18:21:42</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>d352a027-46d8-4d53-847f-c810d0afbbed</ui_id>
+    </sys_hub_pill_compound>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>f146e06f47c1021023fefe02d16d43af</attached_to>
         <extra_info/>
@@ -618,6 +715,23 @@
         <transform_compositions>[]</transform_compositions>
         <transform_definition_id/>
         <ui_id>ab72024e-275b-4008-8780-6df86bf2686b</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>f146e06f47c1021023fefe02d16d43af</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{e11b091f-e60d-4acf-ba5d-7c2f9f19b31d.record.end_date_time}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-04-06 18:21:42</sys_created_on>
+        <sys_id>4b51f1db4751021023fefe02d16d43d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="BabySitter Requester">7b24c4a34741021023fefe02d16d4358</sys_scope>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-04-06 18:21:42</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>5739863a-12f1-458a-978c-6f2d775db6ce</ui_id>
     </sys_hub_pill_compound>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>f146e06f47c1021023fefe02d16d43af</attached_to>
@@ -674,6 +788,23 @@
         <attached_to>f146e06f47c1021023fefe02d16d43af</attached_to>
         <extra_info/>
         <order>0</order>
+        <prescription>{{e11b091f-e60d-4acf-ba5d-7c2f9f19b31d.record.start_date_time}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-04-06 18:21:42</sys_created_on>
+        <sys_id>8751f1db4751021023fefe02d16d43d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="BabySitter Requester">7b24c4a34741021023fefe02d16d4358</sys_scope>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-04-06 18:21:42</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>59cef7e7-fd31-4d53-86d2-811c46191573</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>f146e06f47c1021023fefe02d16d43af</attached_to>
+        <extra_info/>
+        <order>0</order>
         <prescription>{{e11b091f-e60d-4acf-ba5d-7c2f9f19b31d.record.end_date_time}}</prescription>
         <source_ui_id/>
         <sys_created_by>shu</sys_created_by>
@@ -703,6 +834,40 @@
         <transform_compositions>[]</transform_compositions>
         <transform_definition_id/>
         <ui_id>bdadc91d-f6ee-49f9-9b0e-c0ae098d589b</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>f146e06f47c1021023fefe02d16d43af</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{e11b091f-e60d-4acf-ba5d-7c2f9f19b31d.record.number}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-04-06 18:21:42</sys_created_on>
+        <sys_id>c351f1db4751021023fefe02d16d43d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="BabySitter Requester">7b24c4a34741021023fefe02d16d4358</sys_scope>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-04-06 18:21:42</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>6714a81d-730c-41c0-b34f-565f1a2b3f07</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>f146e06f47c1021023fefe02d16d43af</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{e11b091f-e60d-4acf-ba5d-7c2f9f19b31d.record.assigned_to.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-04-06 18:21:42</sys_created_on>
+        <sys_id>cb51f1db4751021023fefe02d16d43d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="BabySitter Requester">7b24c4a34741021023fefe02d16d4358</sys_scope>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-04-06 18:21:42</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>921f0ed3-03ac-407e-b552-9fd6c3214775</ui_id>
     </sys_hub_pill_compound>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>f146e06f47c1021023fefe02d16d43af</attached_to>
@@ -824,7 +989,7 @@
         <copied_from_name/>
         <description>after manager assign the babysitter to the requester, update state to assigned and send notification email</description>
         <internal_name>babysitter_assigned</internal_name>
-        <label_cache>[{"name":"e11b091f-e60d-4acf-ba5d-7c2f9f19b31d.record.assignment_group.manager.email","label":"1 - Update Record➛BabySitter Request Record➛Assignment group➛Manager➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"e11b091f-e60d-4acf-ba5d-7c2f9f19b31d.record.end_date_time","label":"1 - Update Record➛BabySitter Request Record➛End Date/Time","reference":"","reference_display":"End Date/Time","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_1311516_babysi_0_babysitter_request","column_name":"end_date_time"},{"name":"e11b091f-e60d-4acf-ba5d-7c2f9f19b31d.record.start_date_time","label":"1 - Update Record➛BabySitter Request Record➛Start Date/TIme","reference":"","reference_display":"Start Date/TIme","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_1311516_babysi_0_babysitter_request","column_name":"start_date_time"},{"name":"e11b091f-e60d-4acf-ba5d-7c2f9f19b31d.record.assigned_to.last_name","label":"1 - Update Record➛BabySitter Request Record➛Assigned to➛Last name","reference":"","reference_display":"Last name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"last_name"},{"name":"e11b091f-e60d-4acf-ba5d-7c2f9f19b31d.record.assigned_to.first_name","label":"1 - Update Record➛BabySitter Request Record➛Assigned to➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"e11b091f-e60d-4acf-ba5d-7c2f9f19b31d.record.requester.first_name","label":"1 - Update Record➛BabySitter Request Record➛Requester➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"e11b091f-e60d-4acf-ba5d-7c2f9f19b31d.record.number","label":"1 - Update Record➛BabySitter Request Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1311516_babysi_0_babysitter_request","column_name":"number"},{"name":"e11b091f-e60d-4acf-ba5d-7c2f9f19b31d.record.requester.email","label":"1 - Update Record➛BabySitter Request Record➛Requester➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"Updated_1.current","label":"Trigger - Record Updated➛BabySitter Request Record","reference":"x_1311516_babysi_0_babysitter_request","reference_display":"BabySitter Request","type":"reference","base_type":"reference","attributes":{}}]</label_cache>
+        <label_cache>[{"name":"e11b091f-e60d-4acf-ba5d-7c2f9f19b31d.record.assigned_to.email","label":"1 - Update Record➛BabySitter Request Record➛Assigned to➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"e11b091f-e60d-4acf-ba5d-7c2f9f19b31d.record.assignment_group.manager.email","label":"1 - Update Record➛BabySitter Request Record➛Assignment group➛Manager➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"e11b091f-e60d-4acf-ba5d-7c2f9f19b31d.record.end_date_time","label":"1 - Update Record➛BabySitter Request Record➛End Date/Time","reference":"","reference_display":"End Date/Time","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_1311516_babysi_0_babysitter_request","column_name":"end_date_time"},{"name":"e11b091f-e60d-4acf-ba5d-7c2f9f19b31d.record.start_date_time","label":"1 - Update Record➛BabySitter Request Record➛Start Date/TIme","reference":"","reference_display":"Start Date/TIme","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_1311516_babysi_0_babysitter_request","column_name":"start_date_time"},{"name":"e11b091f-e60d-4acf-ba5d-7c2f9f19b31d.record.assigned_to.last_name","label":"1 - Update Record➛BabySitter Request Record➛Assigned to➛Last name","reference":"","reference_display":"Last name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"last_name"},{"name":"e11b091f-e60d-4acf-ba5d-7c2f9f19b31d.record.assigned_to.first_name","label":"1 - Update Record➛BabySitter Request Record➛Assigned to➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"e11b091f-e60d-4acf-ba5d-7c2f9f19b31d.record.requester.first_name","label":"1 - Update Record➛BabySitter Request Record➛Requester➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"e11b091f-e60d-4acf-ba5d-7c2f9f19b31d.record.number","label":"1 - Update Record➛BabySitter Request Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1311516_babysi_0_babysitter_request","column_name":"number"},{"name":"e11b091f-e60d-4acf-ba5d-7c2f9f19b31d.record.requester.email","label":"1 - Update Record➛BabySitter Request Record➛Requester➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"Updated_1.current","label":"Trigger - Record Updated➛BabySitter Request Record","reference":"x_1311516_babysi_0_babysitter_request","reference_display":"BabySitter Request","type":"reference","base_type":"reference","attributes":{}}]</label_cache>
         <master>true</master>
         <name>babysitter assigned</name>
         <natlang/>
@@ -841,7 +1006,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>bdd728ef47c1021023fefe02d16d4392</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -849,14 +1014,14 @@
         <sys_scope display_value="BabySitter Requester">7b24c4a34741021023fefe02d16d4358</sys_scope>
         <sys_update_name/>
         <sys_updated_by>shu</sys_updated_by>
-        <sys_updated_on>2024-03-27 04:57:52</sys_updated_on>
+        <sys_updated_on>2024-04-06 18:28:20</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=bdd728ef47c1021023fefe02d16d4392"/>
     <sys_variable_value action="delete_multiple" query="document_key=bdd728ef47c1021023fefe02d16d4392"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=bdd728ef47c1021023fefe02d16d4392^sys_idNOT IN4ad728ef47c1021023fefe02d16d43f9"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
-        <comment/>
+        <comment>if the request has not been cancelled or closed, assigned to is not empty or changed</comment>
         <display_text/>
         <flow display_value="babysitter assigned">bdd728ef47c1021023fefe02d16d4392</flow>
         <name>Updated</name>
@@ -864,10 +1029,10 @@
         <sys_created_by>shu</sys_created_by>
         <sys_created_on>2024-03-25 21:23:17</sys_created_on>
         <sys_id>4ad728ef47c1021023fefe02d16d43f9</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>31</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>shu</sys_updated_by>
-        <sys_updated_on>2024-03-27 04:57:52</sys_updated_on>
+        <sys_updated_on>2024-04-06 18:28:21</sys_updated_on>
         <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -910,10 +1075,10 @@
         <sys_created_by>shu</sys_created_by>
         <sys_created_on>2024-03-25 21:23:17</sys_created_on>
         <sys_id>ced728ef47c1021023fefe02d16d43fa</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>shu</sys_updated_by>
-        <sys_updated_on>2024-03-25 21:23:17</sys_updated_on>
-        <value>assigned_toISNOTEMPTY^ORassigned_toVALCHANGES</value>
+        <sys_updated_on>2024-04-06 18:28:20</sys_updated_on>
+        <value>stateNOT IN3,4^assigned_toISNOTEMPTY^ORassigned_toVALCHANGES</value>
         <variable display_value="Condition">bb9adea0c31322002841b63b12d3ae67</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_bb695e60c31322002841b63b12d3aea5^id=4ad728ef47c1021023fefe02d16d43f9"/>
@@ -1079,14 +1244,14 @@
         <sys_created_by>shu</sys_created_by>
         <sys_created_on>2024-03-25 21:23:16</sys_created_on>
         <sys_id>f9d728ef47c1021023fefe02d16d4394</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="BabySitter Requester">7b24c4a34741021023fefe02d16d4358</sys_scope>
         <sys_update_name/>
         <sys_updated_by>shu</sys_updated_by>
-        <sys_updated_on>2024-03-27 04:57:51</sys_updated_on>
+        <sys_updated_on>2024-04-06 18:28:20</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1163,14 +1328,14 @@
         <sys_created_by>shu</sys_created_by>
         <sys_created_on>2024-03-25 21:23:17</sys_created_on>
         <sys_id>f9d728ef47c1021023fefe02d16d43c2</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="BabySitter Requester">7b24c4a34741021023fefe02d16d4358</sys_scope>
         <sys_update_name/>
         <sys_updated_by>shu</sys_updated_by>
-        <sys_updated_on>2024-03-27 04:57:51</sys_updated_on>
+        <sys_updated_on>2024-04-06 18:28:20</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1186,7 +1351,7 @@
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=f9d728ef47c1021023fefe02d16d43c2"/>
     <sys_hub_flow_output action="delete_multiple" query="model=bdd728ef47c1021023fefe02d16d4392"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=bdd728ef47c1021023fefe02d16d4392"/>
-    <sys_hub_action_instance action="delete_multiple" query="flow=bdd728ef47c1021023fefe02d16d4392^sys_idNOT IN02d728ef47c1021023fefe02d16d43e0,82d728ef47c1021023fefe02d16d43f7"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=bdd728ef47c1021023fefe02d16d4392^sys_idNOT IN02d728ef47c1021023fefe02d16d43e0,6c6175db4751021023fefe02d16d4366,82d728ef47c1021023fefe02d16d43f7"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -1202,10 +1367,10 @@
         <sys_created_by>shu</sys_created_by>
         <sys_created_on>2024-03-25 21:23:17</sys_created_on>
         <sys_id>02d728ef47c1021023fefe02d16d43e0</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>38</sys_mod_count>
         <sys_scope display_value="BabySitter Requester">7b24c4a34741021023fefe02d16d4358</sys_scope>
         <sys_updated_by>shu</sys_updated_by>
-        <sys_updated_on>2024-03-27 04:57:52</sys_updated_on>
+        <sys_updated_on>2024-04-06 18:28:20</sys_updated_on>
         <ui_id>e11b091f-e60d-4acf-ba5d-7c2f9f19b31d</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=02d728ef47c1021023fefe02d16d43e0"/>
@@ -1285,16 +1450,95 @@
         <comment/>
         <display_text/>
         <flow display_value="babysitter assigned">bdd728ef47c1021023fefe02d16d4392</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-04-06 18:21:48</sys_created_on>
+        <sys_id>6c6175db4751021023fefe02d16d4366</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="BabySitter Requester">7b24c4a34741021023fefe02d16d4358</sys_scope>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-04-06 18:28:20</sys_updated_on>
+        <ui_id>f945b7db-0c55-457a-8f8b-8264fc5c914d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6c6175db4751021023fefe02d16d4366"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6c6175db4751021023fefe02d16d4366</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-04-06 18:21:48</sys_created_on>
+        <sys_id>206175db4751021023fefe02d16d4369</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-04-06 18:21:48</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6c6175db4751021023fefe02d16d4366"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>6c6175db4751021023fefe02d16d4366</id>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-04-06 18:21:48</sys_created_on>
+        <sys_id>e86175db4751021023fefe02d16d4368</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-04-06 18:21:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;Hello&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:921f0ed3-03ac-407e-b552-9fd6c3214775}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:921f0ed3-03ac-407e-b552-9fd6c3214775}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="1 - Update Record &amp;gt; BabySitter Request Record &amp;gt; Assigned to &amp;gt; First name"&gt;&lt;span class="pill-start"&gt;1 - Update Record&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;First name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_921f0ed3-03ac-407e-b552-9fd6c3214775" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;A new babysitter request&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:6714a81d-730c-41c0-b34f-565f1a2b3f07}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:6714a81d-730c-41c0-b34f-565f1a2b3f07}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="1 - Update Record &amp;gt; BabySitter Request Record &amp;gt; Number"&gt;&lt;span class="pill-start"&gt;1 - Update Record&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Number&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_6714a81d-730c-41c0-b34f-565f1a2b3f07" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; has just assignem to you. The request will start at&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:59cef7e7-fd31-4d53-86d2-811c46191573}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:59cef7e7-fd31-4d53-86d2-811c46191573}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="1 - Update Record &amp;gt; BabySitter Request Record &amp;gt; Start Date/TIme"&gt;&lt;span class="pill-start"&gt;1 - Update Record&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Start Date/TIme&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_59cef7e7-fd31-4d53-86d2-811c46191573" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; until&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:5739863a-12f1-458a-978c-6f2d775db6ce}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:5739863a-12f1-458a-978c-6f2d775db6ce}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="1 - Update Record &amp;gt; BabySitter Request Record &amp;gt; End Date/Time"&gt;&lt;span class="pill-start"&gt;1 - Update Record&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;End Date/Time&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_5739863a-12f1-458a-978c-6f2d775db6ce" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;.&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Please arrive on time. After providing the service please go the record and click "Complete" button to update the request. If you need any assitance please&amp;nbsp;email&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:d352a027-46d8-4d53-847f-c810d0afbbed}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:d352a027-46d8-4d53-847f-c810d0afbbed}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="1 - Update Record &amp;gt; BabySitter Request Record &amp;gt; Assignment group &amp;gt; Manager &amp;gt; Email"&gt;&lt;span class="pill-start"&gt;1 - Update Record&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Email&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_d352a027-46d8-4d53-847f-c810d0afbbed" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;.&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Thank you for your service.&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;BabySitter Group&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>6c6175db4751021023fefe02d16d4366</id>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-04-06 18:21:48</sys_created_on>
+        <sys_id>ac6175db4751021023fefe02d16d4368</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-04-06 18:21:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>You got a new assignment {{e11b091f-e60d-4acf-ba5d-7c2f9f19b31d.record.number}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>6c6175db4751021023fefe02d16d4366</id>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-04-06 18:21:48</sys_created_on>
+        <sys_id>286175db4751021023fefe02d16d4368</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-04-06 18:21:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{e11b091f-e60d-4acf-ba5d-7c2f9f19b31d.record.assigned_to.email}} </value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6c6175db4751021023fefe02d16d4366"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6c6175db4751021023fefe02d16d4366"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="babysitter assigned">bdd728ef47c1021023fefe02d16d4392</flow>
         <order>2</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>shu</sys_created_by>
         <sys_created_on>2024-03-25 21:23:17</sys_created_on>
         <sys_id>82d728ef47c1021023fefe02d16d43f7</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>38</sys_mod_count>
         <sys_scope display_value="BabySitter Requester">7b24c4a34741021023fefe02d16d4358</sys_scope>
         <sys_updated_by>shu</sys_updated_by>
-        <sys_updated_on>2024-03-27 04:57:52</sys_updated_on>
+        <sys_updated_on>2024-04-06 18:28:20</sys_updated_on>
         <ui_id>4b24cb68-11d1-4295-9c0d-3c699593b55d</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=82d728ef47c1021023fefe02d16d43f7"/>
@@ -1371,7 +1615,7 @@
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=82d728ef47c1021023fefe02d16d43f7"/>
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=bdd728ef47c1021023fefe02d16d4392"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=bdd728ef47c1021023fefe02d16d4392"/>
-    <sys_hub_pill_compound action="delete_multiple" query="attached_to=bdd728ef47c1021023fefe02d16d4392^sys_idNOT IN2279577347c1821023fefe02d16d439e,42d728ef47c1021023fefe02d16d43fc,46d728ef47c1021023fefe02d16d43fb,4ad728ef47c1021023fefe02d16d43fb,4ed728ef47c1021023fefe02d16d43fb,c6d728ef47c1021023fefe02d16d43fb,cad728ef47c1021023fefe02d16d43fb,ced728ef47c1021023fefe02d16d43fb"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=bdd728ef47c1021023fefe02d16d4392^sys_idNOT IN2279577347c1821023fefe02d16d439e,42d728ef47c1021023fefe02d16d43fc,46d728ef47c1021023fefe02d16d43fb,4ad728ef47c1021023fefe02d16d43fb,4ed728ef47c1021023fefe02d16d43fb,a46175db4751021023fefe02d16d4397,a86175db4751021023fefe02d16d4397,ac6175db4751021023fefe02d16d4396,ac6175db4751021023fefe02d16d4397,c6d728ef47c1021023fefe02d16d43fb,cad728ef47c1021023fefe02d16d43fb,ced728ef47c1021023fefe02d16d43fb,e86175db4751021023fefe02d16d4396"/>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>bdd728ef47c1021023fefe02d16d4392</attached_to>
         <extra_info/>
@@ -1464,6 +1708,74 @@
         <prescription>{{e11b091f-e60d-4acf-ba5d-7c2f9f19b31d.record.assigned_to.first_name}}</prescription>
         <source_ui_id/>
         <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-04-06 18:21:48</sys_created_on>
+        <sys_id>a46175db4751021023fefe02d16d4397</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="BabySitter Requester">7b24c4a34741021023fefe02d16d4358</sys_scope>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-04-06 18:21:48</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>921f0ed3-03ac-407e-b552-9fd6c3214775</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>bdd728ef47c1021023fefe02d16d4392</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{e11b091f-e60d-4acf-ba5d-7c2f9f19b31d.record.assignment_group.manager.email}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-04-06 18:21:48</sys_created_on>
+        <sys_id>a86175db4751021023fefe02d16d4397</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="BabySitter Requester">7b24c4a34741021023fefe02d16d4358</sys_scope>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-04-06 18:21:48</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>d352a027-46d8-4d53-847f-c810d0afbbed</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>bdd728ef47c1021023fefe02d16d4392</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{e11b091f-e60d-4acf-ba5d-7c2f9f19b31d.record.start_date_time}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-04-06 18:21:48</sys_created_on>
+        <sys_id>ac6175db4751021023fefe02d16d4396</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="BabySitter Requester">7b24c4a34741021023fefe02d16d4358</sys_scope>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-04-06 18:21:48</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>59cef7e7-fd31-4d53-86d2-811c46191573</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>bdd728ef47c1021023fefe02d16d4392</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{e11b091f-e60d-4acf-ba5d-7c2f9f19b31d.record.number}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-04-06 18:21:48</sys_created_on>
+        <sys_id>ac6175db4751021023fefe02d16d4397</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="BabySitter Requester">7b24c4a34741021023fefe02d16d4358</sys_scope>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-04-06 18:21:48</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>6714a81d-730c-41c0-b34f-565f1a2b3f07</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>bdd728ef47c1021023fefe02d16d4392</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{e11b091f-e60d-4acf-ba5d-7c2f9f19b31d.record.assigned_to.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>shu</sys_created_by>
         <sys_created_on>2024-03-25 21:23:17</sys_created_on>
         <sys_id>c6d728ef47c1021023fefe02d16d43fb</sys_id>
         <sys_mod_count>0</sys_mod_count>
@@ -1507,6 +1819,23 @@
         <transform_compositions>[]</transform_compositions>
         <transform_definition_id/>
         <ui_id>ab72024e-275b-4008-8780-6df86bf2686b</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>bdd728ef47c1021023fefe02d16d4392</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{e11b091f-e60d-4acf-ba5d-7c2f9f19b31d.record.end_date_time}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-04-06 18:21:48</sys_created_on>
+        <sys_id>e86175db4751021023fefe02d16d4396</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="BabySitter Requester">7b24c4a34741021023fefe02d16d4358</sys_scope>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-04-06 18:21:48</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>5739863a-12f1-458a-978c-6f2d775db6ce</ui_id>
     </sys_hub_pill_compound>
     <sys_hub_flow_variable action="delete_multiple" query="model=bdd728ef47c1021023fefe02d16d4392"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_bdd728ef47c1021023fefe02d16d4392^sys_idNOT IN31d728ef47c1021023fefe02d16d43c7,71d728ef47c1021023fefe02d16d43b7,b1d728ef47c1021023fefe02d16d43bf"/>
@@ -1592,18 +1921,18 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerUniqueChange</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"cad768ef47c1021023fefe02d16d431b","name":"plan","plan_signature":null}}</plan>
         <plan_id>f146e06f47c1021023fefe02d16d43af</plan_id>
-        <snapshot>74ead7f347c1821023fefe02d16d430a</snapshot>
+        <snapshot>bdf27d5f4751021023fefe02d16d437e</snapshot>
         <sys_created_by>shu</sys_created_by>
         <sys_created_on>2024-03-25 21:23:17</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>cad768ef47c1021023fefe02d16d431b</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>shu</sys_updated_by>
-        <sys_updated_on>2024-03-27 04:57:52</sys_updated_on>
-        <trigger display_value="">0ed768ef47c1021023fefe02d16d4319</trigger>
+        <sys_updated_on>2024-04-06 18:28:21</sys_updated_on>
+        <trigger display_value="">ace2795f4751021023fefe02d16d4343</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=f146e06f47c1021023fefe02d16d43af"/>
 </record_update>

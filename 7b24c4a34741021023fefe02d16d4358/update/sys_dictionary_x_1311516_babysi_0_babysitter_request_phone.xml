@@ -10,7 +10,7 @@
 	return '';  // return the calculated value
 
 })(current);]]></calculation>
-        <choice>0</choice>
+        <choice/>
         <choice_field/>
         <choice_table/>
         <column_label>Phone</column_label>
@@ -32,9 +32,9 @@
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="">phone_number_e164</internal_type>
+        <internal_type display_value="String">string</internal_type>
         <mandatory>true</mandatory>
-        <max_length>40</max_length>
+        <max_length>20</max_length>
         <name>x_1311516_babysi_0_babysitter_request</name>
         <next_element/>
         <primary>false</primary>
@@ -57,8 +57,8 @@
         <sys_policy/>
         <sys_scope display_value="BabySitter Requester">7b24c4a34741021023fefe02d16d4358</sys_scope>
         <sys_update_name>sys_dictionary_x_1311516_babysi_0_babysitter_request_phone</sys_update_name>
-        <sys_updated_by>shu</sys_updated_by>
-        <sys_updated_on>2024-03-25 19:54:20</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-14 20:59:13</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

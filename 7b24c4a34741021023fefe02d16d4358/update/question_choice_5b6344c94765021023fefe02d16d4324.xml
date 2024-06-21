@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <misc>75</misc>
+        <order>600</order>
+        <published_ref/>
+        <question display_value="How many hours do you need our service?">49d244c94765021023fefe02d16d435d</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-04-11 20:50:46</sys_created_on>
+        <sys_id>5b6344c94765021023fefe02d16d4324</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>6 hours</sys_name>
+        <sys_package display_value="BabySitter Requester" source="x_1311516_babysi_0">7b24c4a34741021023fefe02d16d4358</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BabySitter Requester">7b24c4a34741021023fefe02d16d4358</sys_scope>
+        <sys_update_name>question_choice_5b6344c94765021023fefe02d16d4324</sys_update_name>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-04-11 21:41:29</sys_updated_on>
+        <text>6 hours</text>
+        <value>6</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=5b6344c94765021023fefe02d16d4324"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>75</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>5b6344c94765021023fefe02d16d4324</id>
+        <parent/>
+        <reference_amount>75</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-04-11 20:50:46</sys_created_on>
+        <sys_id>ab63840d4765021023fefe02d16d4339</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-04-11 21:41:30</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>5b6344c94765021023fefe02d16d4324</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-04-11 20:50:46</sys_created_on>
+        <sys_id>6363840d4765021023fefe02d16d4339</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-04-11 20:50:46</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>
