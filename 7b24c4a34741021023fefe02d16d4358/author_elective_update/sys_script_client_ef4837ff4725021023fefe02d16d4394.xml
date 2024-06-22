@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Only manager and admin can change the state</description>
+        <field>state</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages>You can not change the state</messages>
+        <name>state is only changable to manager/admin</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    //only manager can change the state.
+    if (!g_user.hasRole('babysitter_manager')) {
+        g_form.showFieldMsg('You cannot change the state!');
+        return false;
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-04-21 03:47:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ef4837ff4725021023fefe02d16d4394</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>state is only changable to manager/admin</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="BabySitter Requester" source="x_1311516_babysi_0">7b24c4a34741021023fefe02d16d4358</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BabySitter Requester">7b24c4a34741021023fefe02d16d4358</sys_scope>
+        <sys_update_name>sys_script_client_ef4837ff4725021023fefe02d16d4394</sys_update_name>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-04-21 03:49:18</sys_updated_on>
+        <table>x_1311516_babysi_0_babysitter_request</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BabySitter Requester">7b24c4a34741021023fefe02d16d4358</application>
+        <file_path/>
+        <instance_id>347a81f8dbb23590caf99027c59619a6</instance_id>
+        <instance_name>dev225936</instance_name>
+        <name>sys_script_client_ef4837ff4725021023fefe02d16d4394</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;Only manager and admin can change the state&lt;/description&gt;&lt;field&gt;state&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages&gt;You can not change the state&lt;/messages&gt;&lt;name&gt;state is only changable to manager/admin&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    //only manager can change the state.
+    if (!g_user.hasRole('babysitter_manager')) {
+        g_form.showFieldMsg('You cannot change the state!');
+        return false;
+    }
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;shu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-21 03:47:21&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;ef4837ff4725021023fefe02d16d4394&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;state is only changable to manager/admin&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="BabySitter Requester" source="x_1311516_babysi_0"&gt;7b24c4a34741021023fefe02d16d4358&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="BabySitter Requester"&gt;7b24c4a34741021023fefe02d16d4358&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_ef4837ff4725021023fefe02d16d4394&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;shu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-21 03:49:18&lt;/sys_updated_on&gt;&lt;table&gt;x_1311516_babysi_0_babysitter_request&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-365972632</payload_hash>
+        <record_name>state is only changable to manager/admin</record_name>
+        <reverted_from/>
+        <source>a3cab9cd4755c61023fefe02d16d435b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-04-21 03:49:18</sys_created_on>
+        <sys_id>8e89fb334765021023fefe02d16d434b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18efec5c8600000001</sys_recorded_at>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-04-21 03:49:18</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>0689fb33a76502105abf7245cd2bb24b</update_guid>
+        <update_guid_history>0689fb33a76502105abf7245cd2bb24b:-365972632,9919b333a4650210e4de118de1d235a2:-511638693</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-04-21 03:51:20</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>520ce2c1e62d4bf6a7d3f9bc81027f01</sys_id>
+        <sys_metadata>ef4837ff4725021023fefe02d16d4394</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>state is only changable to manager/admin</sys_name>
+        <sys_package display_value="BabySitter Requester" source="x_1311516_babysi_0">7b24c4a34741021023fefe02d16d4358</sys_package>
+        <sys_parent display_value="BabySitter Request">255a806b4741021023fefe02d16d4348</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="BabySitter Requester">7b24c4a34741021023fefe02d16d4358</sys_scope>
+        <sys_scope_delete display_value="">18f49510fe7f4a4a9eae57572b1a8fb9</sys_scope_delete>
+        <sys_update_name>sys_script_client_ef4837ff4725021023fefe02d16d4394</sys_update_name>
+        <sys_update_version display_value="sys_script_client_ef4837ff4725021023fefe02d16d4394">8e89fb334765021023fefe02d16d434b</sys_update_version>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-04-21 03:51:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

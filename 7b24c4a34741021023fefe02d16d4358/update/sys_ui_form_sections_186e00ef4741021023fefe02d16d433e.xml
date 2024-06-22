@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="186e00ef4741021023fefe02d16d433e" sys_domain="global" table="x_1311516_babysi_0_babysitter_request" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>shu</sys_created_by>
+            <sys_created_on>2024-03-25 19:32:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>686e00ef4741021023fefe02d16d4341</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1311516_babysi_0_babysitter_request" name="x_1311516_babysi_0_babysitter_request" sys_domain="global" view="9fccc06f4741021023fefe02d16d4303">186e00ef4741021023fefe02d16d433e</sys_ui_form>
+            <sys_ui_section caption="BabySitter Request" display_value="BabySitter Request" name="x_1311516_babysi_0_babysitter_request" sys_domain="global" view="9fccc06f4741021023fefe02d16d4303">dfccc06f4741021023fefe02d16d4307</sys_ui_section>
+            <sys_updated_by>shu</sys_updated_by>
+            <sys_updated_on>2024-03-25 19:32:03</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>shu</sys_created_by>
+            <sys_created_on>2024-03-25 19:32:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>646e00ef4741021023fefe02d16d4342</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1311516_babysi_0_babysitter_request" name="x_1311516_babysi_0_babysitter_request" sys_domain="global" view="9fccc06f4741021023fefe02d16d4303">186e00ef4741021023fefe02d16d433e</sys_ui_form>
+            <sys_ui_section caption="Additional Information" display_value="Additional Information" name="x_1311516_babysi_0_babysitter_request" sys_domain="global" view="9fccc06f4741021023fefe02d16d4303">dc6e00ef4741021023fefe02d16d433d</sys_ui_section>
+            <sys_updated_by>shu</sys_updated_by>
+            <sys_updated_on>2024-03-25 19:32:03</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>shu</sys_created_by>
+            <sys_created_on>2024-03-27 04:34:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a33493bb4781821023fefe02d16d4391</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1311516_babysi_0_babysitter_request" name="x_1311516_babysi_0_babysitter_request" sys_domain="global" view="9fccc06f4741021023fefe02d16d4303">186e00ef4741021023fefe02d16d433e</sys_ui_form>
+            <sys_ui_section caption="Comments" display_value="Comments" name="x_1311516_babysi_0_babysitter_request" sys_domain="global" view="9fccc06f4741021023fefe02d16d4303">273493bb4781821023fefe02d16d438e</sys_ui_section>
+            <sys_updated_by>shu</sys_updated_by>
+            <sys_updated_on>2024-03-27 04:34:59</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1311516_babysi_0_babysitter_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>shu</sys_created_by>
+            <sys_created_on>2024-03-25 19:32:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>186e00ef4741021023fefe02d16d433e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1311516_babysi_0_babysitter_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="BabySitter Requester" source="x_1311516_babysi_0">7b24c4a34741021023fefe02d16d4358</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="BabySitter Requester">7b24c4a34741021023fefe02d16d4358</sys_scope>
+            <sys_update_name>sys_ui_form_sections_186e00ef4741021023fefe02d16d433e</sys_update_name>
+            <sys_updated_by>shu</sys_updated_by>
+            <sys_updated_on>2024-03-25 19:32:02</sys_updated_on>
+            <sys_user/>
+            <view display_value="manager view" name="manager_view">9fccc06f4741021023fefe02d16d4303</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

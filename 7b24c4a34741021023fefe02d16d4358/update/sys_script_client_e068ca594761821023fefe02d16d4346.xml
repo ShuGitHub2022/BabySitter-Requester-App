@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>validate phone number to be USA 10 digit phone number</description>
+        <field>phone</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages>Invalid Phone number, please input 10 digit phone number</messages>
+        <name>Phone number validation</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    //Type appropriate comment here, and begin script below
+    var pattern = /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/; 
+
+    if (!pattern.test(newValue)) {
+        g_form.addErrorMessage('Please enter a valid phone number');
+        g_form.setValue('phone', '');
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-04-13 01:11:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e068ca594761821023fefe02d16d4346</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Phone number validation</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="BabySitter Requester" source="x_1311516_babysi_0">7b24c4a34741021023fefe02d16d4358</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BabySitter Requester">7b24c4a34741021023fefe02d16d4358</sys_scope>
+        <sys_update_name>sys_script_client_e068ca594761821023fefe02d16d4346</sys_update_name>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-04-13 01:21:25</sys_updated_on>
+        <table>x_1311516_babysi_0_babysitter_request</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>New BabySitter Request</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>BabySitter Request</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">4b8574397d31311076daf29f52070d17</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-03-25 19:14:22</sys_created_on>
+        <sys_id>ed5a806b4741021023fefe02d16d4385</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>BabySitter Request</sys_name>
+        <sys_package display_value="BabySitter Requester" source="x_1311516_babysi_0">7b24c4a34741021023fefe02d16d4358</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BabySitter Requester">7b24c4a34741021023fefe02d16d4358</sys_scope>
+        <sys_update_name>sys_wizard_answer_ed5a806b4741021023fefe02d16d4385</sys_update_name>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-03-25 19:14:22</sys_updated_on>
+        <table/>
+        <target_url>x_1311516_babysi_0_babysitter_request.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

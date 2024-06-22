@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_context_config">
+    <sys_search_context_config action="INSERT_OR_UPDATE">
+        <collapse_attachment>false</collapse_attachment>
+        <enable_exact_match>true</enable_exact_match>
+        <evam_definition display_value="AI Search For Next Search">f78b729b53d801109fa9ddeeff7b1201</evam_definition>
+        <genius_results_limit>1</genius_results_limit>
+        <hit_highlighting>false</hit_highlighting>
+        <name>BabySitter Requester-manager AI Search Configuration</name>
+        <search_engine>ai_search</search_engine>
+        <search_profile display_value="babysitter-requester-manager Search Profile">a1b1981c9f19c210dbeeb25778205539</search_profile>
+        <search_results_limit>10</search_results_limit>
+        <show_tab_counts>true</show_tab_counts>
+        <spell_check>true</spell_check>
+        <suggestions_to_show_limit>10</suggestions_to_show_limit>
+        <sys_class_name>sys_search_context_config</sys_class_name>
+        <sys_created_by>shu</sys_created_by>
+        <sys_created_on>2024-03-28 03:42:03</sys_created_on>
+        <sys_id>91b1981cce19c210ee9ea59ca32a8d30</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>BabySitter Requester-manager AI Search Configuration</sys_name>
+        <sys_package display_value="BabySitter Requester" source="x_1311516_babysi_0">7b24c4a34741021023fefe02d16d4358</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BabySitter Requester">7b24c4a34741021023fefe02d16d4358</sys_scope>
+        <sys_update_name>sys_search_context_config_91b1981cce19c210ee9ea59ca32a8d30</sys_update_name>
+        <sys_updated_by>shu</sys_updated_by>
+        <sys_updated_on>2024-03-28 03:42:03</sys_updated_on>
+        <ts_index_group/>
+        <view/>
+    </sys_search_context_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=91b1981cce19c210ee9ea59ca32a8d30"/>
+</record_update>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_1311516_babysi_0_babysitter_request" version="2" view="babysitter_view">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_1311516_babysi_0_babysitter_request" element="NULL" name="x_1311516_babysi_0_babysitter_request" parent="NULL" relationship="NULL" sys_domain="global" view="303f40234781021023fefe02d16d4355">6058dbff4781821023fefe02d16d432a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>shu</sys_created_by>
+            <sys_created_on>2024-03-27 04:52:49</sys_created_on>
+            <sys_id>7058dbff4781821023fefe02d16d432b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>shu</sys_updated_by>
+            <sys_updated_on>2024-03-27 04:52:49</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>requester</element>
+            <list_id display_value="x_1311516_babysi_0_babysitter_request" element="NULL" name="x_1311516_babysi_0_babysitter_request" parent="NULL" relationship="NULL" sys_domain="global" view="303f40234781021023fefe02d16d4355">6058dbff4781821023fefe02d16d432a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>shu</sys_created_by>
+            <sys_created_on>2024-03-27 04:52:49</sys_created_on>
+            <sys_id>7858dbff4781821023fefe02d16d432b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>shu</sys_updated_by>
+            <sys_updated_on>2024-03-27 04:52:49</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>start_date_time</element>
+            <list_id display_value="x_1311516_babysi_0_babysitter_request" element="NULL" name="x_1311516_babysi_0_babysitter_request" parent="NULL" relationship="NULL" sys_domain="global" view="303f40234781021023fefe02d16d4355">6058dbff4781821023fefe02d16d432a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>shu</sys_created_by>
+            <sys_created_on>2024-03-27 04:52:49</sys_created_on>
+            <sys_id>7c58dbff4781821023fefe02d16d432b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>shu</sys_updated_by>
+            <sys_updated_on>2024-03-27 04:52:49</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>end_date_time</element>
+            <list_id display_value="x_1311516_babysi_0_babysitter_request" element="NULL" name="x_1311516_babysi_0_babysitter_request" parent="NULL" relationship="NULL" sys_domain="global" view="303f40234781021023fefe02d16d4355">6058dbff4781821023fefe02d16d432a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>shu</sys_created_by>
+            <sys_created_on>2024-03-27 04:52:49</sys_created_on>
+            <sys_id>7058dbff4781821023fefe02d16d432c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>shu</sys_updated_by>
+            <sys_updated_on>2024-03-27 04:52:49</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>state</element>
+            <list_id display_value="x_1311516_babysi_0_babysitter_request" element="NULL" name="x_1311516_babysi_0_babysitter_request" parent="NULL" relationship="NULL" sys_domain="global" view="303f40234781021023fefe02d16d4355">6058dbff4781821023fefe02d16d432a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>shu</sys_created_by>
+            <sys_created_on>2024-03-27 04:52:49</sys_created_on>
+            <sys_id>7458dbff4781821023fefe02d16d432c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>shu</sys_updated_by>
+            <sys_updated_on>2024-03-27 04:52:49</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>children_age</element>
+            <list_id display_value="x_1311516_babysi_0_babysitter_request" element="NULL" name="x_1311516_babysi_0_babysitter_request" parent="NULL" relationship="NULL" sys_domain="global" view="303f40234781021023fefe02d16d4355">6058dbff4781821023fefe02d16d432a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>shu</sys_created_by>
+            <sys_created_on>2024-03-27 04:52:49</sys_created_on>
+            <sys_id>7858dbff4781821023fefe02d16d432c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>shu</sys_updated_by>
+            <sys_updated_on>2024-03-27 04:52:49</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>children_number</element>
+            <list_id display_value="x_1311516_babysi_0_babysitter_request" element="NULL" name="x_1311516_babysi_0_babysitter_request" parent="NULL" relationship="NULL" sys_domain="global" view="303f40234781021023fefe02d16d4355">6058dbff4781821023fefe02d16d432a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>shu</sys_created_by>
+            <sys_created_on>2024-03-27 04:52:49</sys_created_on>
+            <sys_id>7c58dbff4781821023fefe02d16d432c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>shu</sys_updated_by>
+            <sys_updated_on>2024-03-27 04:52:49</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>locatio0</element>
+            <list_id display_value="x_1311516_babysi_0_babysitter_request" element="NULL" name="x_1311516_babysi_0_babysitter_request" parent="NULL" relationship="NULL" sys_domain="global" view="303f40234781021023fefe02d16d4355">6058dbff4781821023fefe02d16d432a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>shu</sys_created_by>
+            <sys_created_on>2024-03-27 04:52:49</sys_created_on>
+            <sys_id>7058dbff4781821023fefe02d16d432d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>shu</sys_updated_by>
+            <sys_updated_on>2024-03-27 04:52:49</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>phone</element>
+            <list_id display_value="x_1311516_babysi_0_babysitter_request" element="NULL" name="x_1311516_babysi_0_babysitter_request" parent="NULL" relationship="NULL" sys_domain="global" view="303f40234781021023fefe02d16d4355">6058dbff4781821023fefe02d16d432a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>shu</sys_created_by>
+            <sys_created_on>2024-03-27 04:52:49</sys_created_on>
+            <sys_id>7458dbff4781821023fefe02d16d432d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>shu</sys_updated_by>
+            <sys_updated_on>2024-03-27 04:52:49</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_1311516_babysi_0_babysitter_request</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>shu</sys_created_by>
+            <sys_created_on>2024-03-27 04:52:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6058dbff4781821023fefe02d16d432a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1311516_babysi_0_babysitter_request</sys_name>
+            <sys_package display_value="BabySitter Requester" source="x_1311516_babysi_0">7b24c4a34741021023fefe02d16d4358</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="BabySitter Requester">7b24c4a34741021023fefe02d16d4358</sys_scope>
+            <sys_update_name>sys_ui_list_x_1311516_babysi_0_babysitter_request_babysitter_view</sys_update_name>
+            <sys_updated_by>shu</sys_updated_by>
+            <sys_updated_on>2024-03-27 04:52:49</sys_updated_on>
+            <sys_user/>
+            <view display_value="babysitter view" name="babysitter_view">303f40234781021023fefe02d16d4355</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>
